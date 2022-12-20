@@ -6,11 +6,19 @@ using UnityEngine.UI;
 public class SlotsWindow : MonoBehaviour
 {
     [SerializeField] private List<SlotColumn> _slots;
+
+    [SerializeField] private BetPanel _betPanel;
+    [SerializeField] private CreditPanel _creditPanel;
+
     [SerializeField] private Button _spinButton;
 
+    [SerializeField] private WinWindow _winWindow;
+
+    private WinRateGenerator _winRateGenerator = new();
+    
     private void OnEnable()
     {
-        _spinButton.onClick.AddListener(() => StartCoroutine(Spin()));
+        _spinButton.onClick.AddListener(SpinSlots);
     }
 
     private void OnDisable()
@@ -18,26 +26,37 @@ public class SlotsWindow : MonoBehaviour
         _spinButton.onClick.RemoveAllListeners();
     }
 
-    public IEnumerator Spin()
+    private void SpinSlots()
+    {
+        List<CellsType> slotsCombination = _winRateGenerator.GetSlotsCombinationList(_slots.Count);
+
+        if (slotsCombination != null)
+        {
+            _creditPanel.DecreaseCredits(_betPanel.CurrentBet);
+            StartCoroutine(StartSpinAnimation(slotsCombination));
+        }
+    }
+
+    private IEnumerator StartSpinAnimation(List<CellsType> slotsCombination)
     {
         _spinButton.interactable = false;
 
         int index = 0;
+
         foreach (var slot in _slots)
             slot.SpinSlot();
 
-        var currentSlot = _slots[index];
-
-        while (currentSlot.IsStoped == false)
+        while (index < _slots.Count)
         {
-            currentSlot.StopSlotOnCell(0);
+            var currentSlot = _slots[index];
+            currentSlot.StopSlotOnCell(slotsCombination[index]);
             index++;
 
             yield return new WaitUntil(() => currentSlot.IsStoped != false);
-
-            if (index < _slots.Count)
-                currentSlot = _slots[index];
         }
+
+        CombinationInterpreter combinationInterpreter = new();
+        combinationInterpreter.InterpritateCombination(slotsCombination, _winWindow, _betPanel.CurrentBet);
 
         _spinButton.interactable = true;
     }

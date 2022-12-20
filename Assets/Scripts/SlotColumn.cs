@@ -2,10 +2,14 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.Collections.Generic;
+using Sirenix.OdinInspector;
 
-public class SlotColumn : MonoBehaviour
+public class SlotColumn : SerializedMonoBehaviour
 {
     [SerializeField] private Scrollbar _scrollbar;
+
+    [SerializeField] private Dictionary<CellsType, double> _cellsWinNumbers;
 
     private const float _maxSpeed = 2.5f;
     private const float _minSpeed = 0.35f;
@@ -24,11 +28,11 @@ public class SlotColumn : MonoBehaviour
         StartCoroutine(ScrollSlot());
     }
 
-    public void StopSlotOnCell(float cellNumber)
+    public void StopSlotOnCell(CellsType winCell)
     {
-        _winNumber = cellNumber;
+        _winNumber = _cellsWinNumbers[winCell];
 
-        StartCoroutine(DecreaseSpeedAfterEverySecondsByValue(0.7f, 0.1f));
+        StartCoroutine(DecreaseSpeedAfterEverySecondsByValue(0.2f, 0.1f));
     }
 
     private IEnumerator ScrollSlot()
@@ -59,13 +63,13 @@ public class SlotColumn : MonoBehaviour
 
     private IEnumerator DecreaseSpeedAfterEverySecondsByValue(float seconds, float value)
     {
-        while (_maxSpeed > 0)
+        while (_currentSpeed > 0)
         {
             yield return new WaitForSeconds(seconds);
 
             _currentSpeed -= value;
 
-            if (_maxSpeed < 0)
+            if (_currentSpeed < 0)
                 _currentSpeed = 0;
         }
     }
