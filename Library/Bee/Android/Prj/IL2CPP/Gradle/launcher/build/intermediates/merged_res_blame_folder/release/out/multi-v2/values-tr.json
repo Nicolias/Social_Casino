@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\UnityProject\\Social casino\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-tr\\values-tr.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\marat\\.gradle\\caches\\transforms-3\\a14c828f9d7b4523071c87ad1e25cf2e\\transformed\\com.google.android.gms.play-services-basement-18.1.0\\res\\values-tr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "142",
+                        "endOffsets": "337"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "146",
+                        "endOffsets": "197"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\marat\\.gradle\\caches\\transforms-3\\201eb74e81184db3885d54050df243b6\\transformed\\androidx.core.core-1.2.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "202",
+                        "endColumns": "100",
+                        "endOffsets": "298"
+                    }
+                }
+            ]
+        }
+    ]
+}

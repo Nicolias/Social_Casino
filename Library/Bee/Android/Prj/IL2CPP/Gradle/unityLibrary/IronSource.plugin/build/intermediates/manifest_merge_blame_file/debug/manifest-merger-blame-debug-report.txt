@@ -1,0 +1,33 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ironsource.unity" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="1"
+6-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml
+7        android:targetSdkVersion="22" />
+7-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:5:5-67
+9-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:5:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:6:5-79
+10-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:6:22-76
+11
+12    <application>
+12-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:8:5-18:19
+13
+14        <!-- AdMob -->
+15
+16
+17        <!-- As Requiered By Admob please add your App ID -->
+18
+19
+20        <!-- <meta-data -->
+21        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
+22        <!-- android:value="YOUR_ADMOB_APP_ID"/> -->
+23
+24    </application>
+25
+26</manifest>
