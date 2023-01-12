@@ -45,8 +45,17 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_UIElements();
 	RegisterModule_UIElements();
 
+	void RegisterModule_UnityAnalyticsCommon();
+	RegisterModule_UnityAnalyticsCommon();
+
+	void RegisterModule_UnityConnect();
+	RegisterModule_UnityConnect();
+
 	void RegisterModule_UnityWebRequest();
 	RegisterModule_UnityWebRequest();
+
+	void RegisterModule_UnityAnalytics();
+	RegisterModule_UnityAnalytics();
 
 }
 
@@ -123,12 +132,13 @@ namespace TextRendering { class Font; } template <> void RegisterUnityClass<Text
 namespace UI { class Canvas; } template <> void RegisterUnityClass<UI::Canvas>(const char*);
 namespace UI { class CanvasGroup; } template <> void RegisterUnityClass<UI::CanvasGroup>(const char*);
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
+class UnityConnectSettings; template <> void RegisterUnityClass<UnityConnectSettings>(const char*);
 
 void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 65 non stripped classes
+	//Total: 66 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -259,5 +269,7 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<UI::CanvasGroup>("UI");
 	//64. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
+	//65. UnityConnectSettings
+	RegisterUnityClass<UnityConnectSettings>("UnityConnect");
 
 }

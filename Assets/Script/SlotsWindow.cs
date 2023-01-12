@@ -2,19 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Zenject;
 
 public class SlotsWindow : MonoBehaviour
 {
     [SerializeField] private List<SlotColumn> _slots;
 
     [SerializeField] private BetPanel _betPanel;
-    [SerializeField] private CreditPanel _creditPanel;
 
     [SerializeField] private Button _spinButton;
 
     [SerializeField] private WinWindow _winWindow;
 
-    private WinRateGenerator _winRateGenerator = new();
+    private CreditPanel _creditPanel;
+    private WinRateGenerator _winRateGenerator;
+    private CombinationInterpreter _combinationInterpreter;
+
+    private int? _currentBet;
+
+    [Inject]
+    public void Construct(CombinationInterpreter combinationInterpreter, WinRateGenerator winRateGenerator, CreditPanel creditPanel)
+    {
+        _combinationInterpreter = combinationInterpreter;
+        _winRateGenerator = winRateGenerator;
+        _creditPanel = creditPanel;
+    }
 
     private void Awake()
     {
@@ -47,7 +59,9 @@ public class SlotsWindow : MonoBehaviour
 
         if (slotsCombination != null)
         {
-            _creditPanel.DecreaseCredits(_betPanel.CurrentBet);
+            _currentBet = _betPanel.PlayerBet;
+
+            _creditPanel.DecreaseCredits((int)_currentBet);
             StartCoroutine(StartSpinAnimation(slotsCombination));
         }
     }
@@ -69,10 +83,11 @@ public class SlotsWindow : MonoBehaviour
 
             yield return new WaitUntil(() => currentSlot.IsStoped != false);
         }
-
-        CombinationInterpreter combinationInterpreter = new();
-        combinationInterpreter.InterpritateCombination(slotsCombination, _winWindow, _betPanel.CurrentBet);
+        
+        _combinationInterpreter.InterpritateCombination(slotsCombination, _winWindow, (int)_currentBet);
 
         _spinButton.interactable = true;
+
+        _currentBet = null;
     }
 }

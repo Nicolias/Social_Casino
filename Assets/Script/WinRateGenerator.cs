@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-
-class WinRateGenerator
+public class WinRateGenerator
 {
     private Dictionary<int, int> _rateBySpineDictionary;
     private int _spinStrik;
 
     private List<CellsType> _currenCellsList = new();
 
-    public WinRateGenerator()
+    private CreditPanel _creditPanel;
+
+    public WinRateGenerator(CreditPanel creditPanel)
     {
+        _creditPanel = creditPanel;
+
         _spinStrik = 0;
         _rateBySpineDictionary = new()
         {
@@ -40,10 +43,17 @@ class WinRateGenerator
         if (_spinStrik > _rateBySpineDictionary.Count)
             _spinStrik = 1;
 
-        if (_spinStrik % 5 == 0 || _spinStrik == 1)
+        if (_spinStrik % 5 == 0)
         {
-            ShowAd();
-            return null;
+            if (Advertisements.Instance.IsRewardVideoAvailable())
+            {
+                ShowAdAndAccrue(_rateBySpineDictionary[_spinStrik]);
+                return null;
+            }
+            else
+            {
+                _spinStrik++;
+            }
         }
 
         if (Random.Range(0, 99) < _rateBySpineDictionary[_spinStrik])
@@ -68,28 +78,25 @@ class WinRateGenerator
         }
     }
 
-    private void ShowAd()
+    private void ShowAdAndAccrue(int prize)
     {
-        if (Advertisements.Instance.IsRewardVideoAvailable())
-        {
-            Advertisements.Instance.ShowRewardedVideo(CompleteMethod);
-        }
-    }
+        Advertisements.Instance.ShowRewardedVideo(CompleteMethod);
 
-    private void CompleteMethod(bool completed, string advertiser)
-    {
-        if (Advertisements.Instance.debug)
+        void CompleteMethod(bool completed, string advertiser)
         {
-            Debug.Log("Closed rewarded from: " + advertiser + " -> Completed " + completed);
-            GleyMobileAds.ScreenWriter.Write("Closed rewarded from: " + advertiser + " -> Completed " + completed);
-            if (completed == true)
+            if (Advertisements.Instance.debug)
             {
-                //give the reward
-            }
-            else
-            {
-                //no reward
+                Debug.Log("Closed rewarded from: " + advertiser + " -> Completed " + completed);
+                GleyMobileAds.ScreenWriter.Write("Closed rewarded from: " + advertiser + " -> Completed " + completed);
+                if (completed == true)
+                {
+                    _creditPanel.AddCredits(prize);
+                }
+                else
+                {
+                    //no reward
+                }
             }
         }
-    }
+    }   
 }

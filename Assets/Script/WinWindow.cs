@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using TMPro;
 
-class WinWindow : MonoBehaviour
+public class WinWindow : MonoBehaviour
 {
     [SerializeField] private CreditPanel _creditPanel;
-    [SerializeField] private TMP_Text _winCountText;
+    [SerializeField] private TMP_Text _winCountText, _prizeCountText;
 
     private int _winCount;
 
@@ -15,6 +15,7 @@ class WinWindow : MonoBehaviour
 
         gameObject.SetActive(true);
 
+        _prizeCountText.text = prize.ToString();
         _creditPanel.AddCredits(prize);
     }
 }

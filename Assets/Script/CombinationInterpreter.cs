@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 
-
-class CombinationInterpreter
+public class CombinationInterpreter
 {
     public void InterpritateCombination(List<CellsType> slotsCombination, WinWindow winWindow, int currentBet)
     {
@@ -12,6 +11,6 @@ class CombinationInterpreter
                 winStrik++;
 
         if (winStrik == slotsCombination.Count)
-            winWindow.AccrueWinnings(currentBet);
+            winWindow.AccrueWinnings(currentBet * 2);
     }
 }

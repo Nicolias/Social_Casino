@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -10,13 +8,15 @@ public class BetPanel : MonoBehaviour
     [SerializeField] private Button _decreaseButton, _addButton;
     [SerializeField] private CreditPanel _creditPanel;
 
-    private int _currentBet = 100;
+    private int _playerBet = 100;
     private const int _betChangeStep = 100;
 
-    public int CurrentBet => _currentBet;
+    public int PlayerBet => _playerBet;
 
     private void OnEnable()
     {
+        _creditPanel.OnCreditChanged += AdjustBet;
+
         ChangeBetTexts();
 
         _addButton.onClick.AddListener(AddBet);
@@ -25,35 +25,47 @@ public class BetPanel : MonoBehaviour
 
     private void OnDisable()
     {
+        _creditPanel.OnCreditChanged -= AdjustBet;
+
         _addButton.onClick.RemoveAllListeners();
         _decreaseButton.onClick.RemoveAllListeners();
     }
 
+    private void AdjustBet()
+    {
+        if (_playerBet > _creditPanel.CreditsCount)
+        {
+            _playerBet = _creditPanel.CreditsCount;
+
+            ChangeBetTexts();
+        }
+    }
+
     private void AddBet()
     {
-        _currentBet += _betChangeStep;
+        _playerBet += _betChangeStep;
 
         ChangeBetTexts();
-        CheckButtensOnValid();
     }
 
     private void DecreaseBet()
     {
-        _currentBet -= _betChangeStep;
+        _playerBet -= _betChangeStep;
 
         ChangeBetTexts();
-        CheckButtensOnValid();
     }
 
     private void ChangeBetTexts()
     {
-        _betCountUnderSlotText.text = _currentBet.ToString();
-        _betCountUpPanelText.text = _currentBet.ToString();
+        _betCountUnderSlotText.text = _playerBet.ToString();
+        _betCountUpPanelText.text = _playerBet.ToString();
+
+        CheckButtonsOnInteractable();
     }
 
-    private void CheckButtensOnValid()
+    private void CheckButtonsOnInteractable()
     {
-        _decreaseButton.interactable = _currentBet - _betChangeStep > 0;
-        _addButton.interactable = _currentBet + _betChangeStep <= _creditPanel.CreditsCount;
+        _decreaseButton.interactable = _playerBet - _betChangeStep > 0;
+        _addButton.interactable = _playerBet + _betChangeStep <= _creditPanel.CreditsCount;
     }
 }

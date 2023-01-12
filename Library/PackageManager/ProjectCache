@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638086769074391641
-    m_Hash: 99179702
+      ticks: 638088480929391510
+    m_Hash: 1459727169
   m_LockFileStatus:
     m_FilePath: D:/UnityProject/Social casino/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638086769094138278
-    m_Hash: 2495277361
+      ticks: 638088480929484991
+    m_Hash: 1737379041
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,138 @@ m_LocalPackages:
 m_ProjectPath: D:/UnityProject/Social casino/Packages
 m_EditorVersion: 2022.2.1f1 (4fead5835099)
 m_ResolvedPackages:
+- packageId: com.unity.ads@4.4.1
+  testable: 0
+  isDirectDependency: 1
+  version: 4.4.1
+  source: 1
+  resolvedPath: D:\UnityProject\Social casino\Library\PackageCache\com.unity.ads@4.4.1
+  assetPath: Packages/com.unity.ads
+  name: com.unity.ads
+  displayName: Advertisement Legacy
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'Connect your game to the Unity Ads Network for iOS and Android to
+    quickly and effectively monetize your games.
+
+
+
+    NOTE: The Advertisement Legacy
+    package will soon be unsupported.
+
+
+    If you are installing this package for
+    the first time, we recommend that you instead use Advertisement with Mediation
+    to ensure continued access to the latest Unity Ads features.
+
+
+    Use Advertisement
+    with Mediation to connect your game to additional ad networks beyond the Unity
+    Ads Network. Before you install the Advertisement with Mediation package, you
+    must uninstall the Advertisement Legacy package and then update your project
+    code.
+
+
+    Please reference the Mediation migration guide in our technical documentation
+    (linked above).'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.6
+    - 0.0.7
+    - 0.0.8
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 2.0.0
+    - 2.0.3
+    - 2.0.4
+    - 2.0.7
+    - 2.0.8
+    - 2.3.1
+    - 2.3.2
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.1.1
+    - 3.2.0
+    - 3.3.0
+    - 3.3.1
+    - 3.4.0
+    - 3.4.1
+    - 3.4.2
+    - 3.4.4
+    - 3.4.5
+    - 3.4.7
+    - 3.4.9
+    - 3.5.0
+    - 3.5.2
+    - 3.6.1
+    - 3.7.0
+    - 3.7.1
+    - 3.7.3
+    - 3.7.5
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.2.1
+    - 4.3.0
+    - 4.4.1
+    compatible:
+    - 4.4.1
+    recommended: 4.4.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - ads
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638011913180000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/unity-ads-sdk.git
+    revision: 6c93f3bb6e6e708c596fac8bc838bbca2b88c20c
+    path: 
+  unityLifecycle:
+    version: 4.4.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ai.navigation@1.1.1
   testable: 0
   isDirectDependency: 1

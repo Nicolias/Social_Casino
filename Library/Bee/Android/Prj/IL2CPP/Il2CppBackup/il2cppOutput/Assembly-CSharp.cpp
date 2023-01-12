@@ -2257,23 +2257,6 @@ struct CustomHeyzap_tB801C5D506F845D409639A19785DFB980F3C274F  : public MonoBeha
 
 struct CustomIronSource_tC35B7892EDF8FD53EF134D2D70E1F3FDDF6463AF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	int32_t ___maxRetryCount_6;
-	bool ___debug_7;
-	bool ___initialized_8;
-	String_t* ___appKey_9;
-	String_t* ___bannerAdUnit_10;
-	String_t* ___interstitialAdUnit_11;
-	String_t* ___rewardedVideoAdUnit_12;
-	bool ___bannerUsed_13;
-	UnityAction_3_tC0C6864D2EAB9F1A23050362C0EDD9D0E7D819C0* ___DisplayResult_14;
-	int32_t ___position_15;
-	int32_t ___bannerType_16;
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___OnInterstitialClosed_17;
-	UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* ___OnInterstitialClosedWithAdvertiser_18;
-	int32_t ___currentRetryInterstitial_19;
-	UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9* ___OnCompleteMethod_20;
-	UnityAction_2_tA07DA6DEE2871E1073BC437122A0E80138264763* ___OnCompleteMethodWithAdvertiser_21;
-	bool ___rewardedWatched_22;
 };
 
 struct CustomMoPub_t196DEEB9BD6FB469B20307897B4576E3FC93FFCF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -2282,6 +2265,23 @@ struct CustomMoPub_t196DEEB9BD6FB469B20307897B4576E3FC93FFCF  : public MonoBehav
 
 struct CustomUnityAds_tC78CC06887EA76EDBFE92268312D4DCA441FACAA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9* ___OnCompleteMethod_7;
+	UnityAction_2_tA07DA6DEE2871E1073BC437122A0E80138264763* ___OnCompleteMethodWithAdvertiser_8;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___OnInterstitialClosed_9;
+	UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* ___OnInterstitialClosedWithAdvertiser_10;
+	String_t* ___unityAdsId_11;
+	String_t* ___bannerPlacement_12;
+	String_t* ___videoAdPlacement_13;
+	String_t* ___rewardedVideoAdPlacement_14;
+	bool ___debug_15;
+	bool ___bannerUsed_16;
+	bool ___interstitialAvailable_17;
+	bool ___rewardedAvailable_18;
+	int32_t ___position_19;
+	int32_t ___bannerType_20;
+	UnityAction_3_tC0C6864D2EAB9F1A23050362C0EDD9D0E7D819C0* ___DisplayResult_21;
+	int32_t ___retryNumberInterstitial_22;
+	int32_t ___retryNumberRewarded_23;
 };
 
 struct CustomVungle_tA5A8942B091081B36A8B5F0E47FA9C74C7CA79C8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71

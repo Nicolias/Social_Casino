@@ -2,8 +2,10 @@
 using UnityEngine;
 using System;
 
-class CreditPanel : MonoBehaviour
+public class CreditPanel : MonoBehaviour
 {
+    public event Action OnCreditChanged;
+
     [SerializeField] private TMP_Text _creditsPanelText;
 
     [SerializeField] private int _creditsCount;
@@ -16,19 +18,24 @@ class CreditPanel : MonoBehaviour
 
     public void AddCredits(int creditsCount)
     {
+        if (creditsCount < 0)
+            throw new InvalidOperationException("Начисляется отрицательное число");
+
         _creditsCount += creditsCount;
 
         UpdateCreditsUIText();
+        OnCreditChanged?.Invoke();
     }
 
     public void DecreaseCredits(int creditsCount)
     {
         if (_creditsCount - creditsCount < 0)
-            throw new InvalidOperationException("Ставка меньше чем количество денег");
+            throw new InvalidOperationException("Недостаточно средств");
 
         _creditsCount -= creditsCount;
 
         UpdateCreditsUIText();
+        OnCreditChanged?.Invoke();
     }
 
     private void UpdateCreditsUIText()

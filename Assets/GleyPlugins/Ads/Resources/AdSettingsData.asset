@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: AdSettingsData
   m_EditorClassIdentifier: 
   mediationSettings:
-  - advertiser: 9
-    advertiserName: IronSource
+  - advertiser: 4
+    advertiserName: Unity
     bannerSettings:
       adType: 1
       orderAndroid: 1
@@ -237,26 +237,26 @@ MonoBehaviour:
       hasRewarded: 1
       directedForChildren: 0
   - advertiser: 4
-    useSDK: 0
+    useSDK: 1
     preprocessorDirective: USE_UNITYADS
     sdkLink: https://assetstore.unity.com/packages/add-ons/services/unity-monetization-66123
     platformSettings:
     - platform: 0
-      enabled: 0
+      enabled: 1
       appId:
-        id: 
+        id: 5110871
         displayName: Game ID
         notRequired: 0
       idBanner:
-        id: 
+        id: Banner_Android
         displayName: Placement ID Banner
         notRequired: 0
       idInterstitial:
-        id: 
+        id: Interstitial_Android
         displayName: Placement ID Interstitial
         notRequired: 0
       idRewarded:
-        id: 
+        id: Rewarded_Android
         displayName: Placement ID Rewarded
         notRequired: 0
       hasBanner: 1
@@ -504,14 +504,14 @@ MonoBehaviour:
       hasRewarded: 1
       directedForChildren: 0
   - advertiser: 9
-    useSDK: 1
+    useSDK: 0
     preprocessorDirective: USE_IRONSOURCE
     sdkLink: https://developers.ironsrc.com/ironsource-mobile-unity/unity-plugin/
     platformSettings:
     - platform: 0
       enabled: 1
       appId:
-        id: 18141dded
+        id: 181024495
         displayName: App Key
         notRequired: 0
       idBanner:
@@ -523,7 +523,7 @@ MonoBehaviour:
         displayName: Interstitial Placement
         notRequired: 0
       idRewarded:
-        id: ' DefaultRewardedVideo '
+        id: 'DefaultRewardedVideo '
         displayName: Rewarded Placement
         notRequired: 0
       hasBanner: 1

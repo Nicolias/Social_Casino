@@ -6,7 +6,7 @@
         simpleName="Gradle:unityLibrary"/>
   </compile>
   <package
-      roots="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\androidx.annotation.annotation-1.2.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\androidx.arch.core.core-common-2.0.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\androidx.collection.collection-1.0.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\androidx.lifecycle.lifecycle-common-2.0.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\com.google.protobuf.protobuf-javalite-3.19.3.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\com.squareup.okhttp3.okhttp-4.6.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\com.squareup.okio.okio-2.6.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.annotations-13.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-1.5.21.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-common-1.5.21.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlinx.kotlinx-coroutines-android-1.4.3.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.4.3.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:androidx.startup.startup-runtime-1.0.0:@aar,:androidx.slidingpanelayout.slidingpanelayout-1.0.0:@aar,:androidx.drawerlayout.drawerlayout-1.0.0:@aar,:androidx.lifecycle.lifecycle-livedata-core-2.0.0:@aar,:androidx.viewpager.viewpager-1.0.0:@aar,:androidx.lifecycle.lifecycle-process-2.0.0:@aar,:androidx.lifecycle.lifecycle-livedata-2.0.0:@aar,:androidx.coordinatorlayout.coordinatorlayout-1.0.0:@aar,:com.ironsource.sdk.mediationsdk-7.2.6:@aar,:androidx.localbroadcastmanager.localbroadcastmanager-1.0.0:@aar,:androidx.lifecycle.lifecycle-viewmodel-2.0.0:@aar,:com.unity3d.mediation.mediation-sdk-1.1.0:@aar,:androidx.customview.customview-1.0.0:@aar,:com.unity3d.mediation.unityads-adapter-1.1.0:@aar,:androidx.documentfile.documentfile-1.0.0:@aar,:androidx.lifecycle.lifecycle-runtime-2.0.0:@aar,:androidx.loader.loader-1.0.0:@aar,:androidx.legacy.legacy-support-core-ui-1.0.0:@aar,:com.google.android.gms.play-services-basement-18.1.0:@aar,:com.unity3d.ads.unity-ads-4.5.0:@aar,:com.unity3d.mediation.mediation-logger-1.1.0:@aar,:androidx.legacy.legacy-support-core-utils-1.0.0:@aar,:androidx.tracing.tracing-1.0.0:@aar,:androidx.core.core-1.2.0:@aar,:androidx.fragment.fragment-1.0.0:@aar,:androidx.lifecycle.lifecycle-extensions-2.0.0:@aar,:androidx.cursoradapter.cursoradapter-1.0.0:@aar,:com.google.android.gms.play-services-ads-identifier-18.0.1:@aar,:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:@aar,:androidx.interpolator.interpolator-1.0.0:@aar,:com.unity3d.mediation.mediation-adapter-1.1.0:@aar,:androidx.lifecycle.lifecycle-service-2.0.0:@aar,:androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:@aar,:androidx.arch.core.core-runtime-2.0.0:@aar,:androidx.versionedparcelable.versionedparcelable-1.1.0:@aar,:androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:@aar,:androidx.print.print-1.0.0:@aar,D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:IronSource.plugin::release,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\libs\android-bridge.jar:unspecified@jar">
+      roots="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\androidx.annotation.annotation-1.2.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\androidx.arch.core.core-common-2.0.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\androidx.collection.collection-1.0.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\androidx.lifecycle.lifecycle-common-2.0.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\com.google.protobuf.protobuf-javalite-3.19.3.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\com.squareup.okhttp3.okhttp-4.6.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\com.squareup.okio.okio-2.6.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.annotations-13.0.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-1.5.21.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-common-1.5.21.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlinx.kotlinx-coroutines-android-1.4.3.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.4.3.jar:unspecified@jar,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:androidx.startup.startup-runtime-1.0.0:@aar,:androidx.slidingpanelayout.slidingpanelayout-1.0.0:@aar,:androidx.drawerlayout.drawerlayout-1.0.0:@aar,:androidx.lifecycle.lifecycle-livedata-core-2.0.0:@aar,:UnityAds:@aar,:androidx.viewpager.viewpager-1.0.0:@aar,:androidx.lifecycle.lifecycle-livedata-2.0.0:@aar,:androidx.coordinatorlayout.coordinatorlayout-1.0.0:@aar,:com.ironsource.sdk.mediationsdk-7.2.6:@aar,:androidx.localbroadcastmanager.localbroadcastmanager-1.0.0:@aar,:androidx.lifecycle.lifecycle-process-2.0.0:@aar,:androidx.lifecycle.lifecycle-viewmodel-2.0.0:@aar,:com.unity3d.mediation.mediation-sdk-1.1.0:@aar,:androidx.customview.customview-1.0.0:@aar,:com.unity3d.mediation.unityads-adapter-1.1.0:@aar,:androidx.documentfile.documentfile-1.0.0:@aar,:androidx.lifecycle.lifecycle-runtime-2.0.0:@aar,:androidx.loader.loader-1.0.0:@aar,:androidx.legacy.legacy-support-core-ui-1.0.0:@aar,:com.google.android.gms.play-services-basement-18.1.0:@aar,:com.unity3d.mediation.mediation-logger-1.1.0:@aar,:androidx.legacy.legacy-support-core-utils-1.0.0:@aar,:androidx.tracing.tracing-1.0.0:@aar,:androidx.core.core-1.2.0:@aar,:androidx.fragment.fragment-1.0.0:@aar,:androidx.lifecycle.lifecycle-extensions-2.0.0:@aar,:androidx.cursoradapter.cursoradapter-1.0.0:@aar,:com.google.android.gms.play-services-ads-identifier-18.0.1:@aar,:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:@aar,:androidx.interpolator.interpolator-1.0.0:@aar,:com.unity3d.mediation.mediation-adapter-1.1.0:@aar,:androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:@aar,:androidx.lifecycle.lifecycle-service-2.0.0:@aar,:androidx.arch.core.core-runtime-2.0.0:@aar,:androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:@aar,:androidx.print.print-1.0.0:@aar,:androidx.versionedparcelable.versionedparcelable-1.1.0:@aar,D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:IronSource.plugin::release,__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\libs\android-bridge.jar:unspecified@jar">
     <dependency
         name="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
         simpleName="Gradle:unityLibrary"/>
@@ -45,9 +45,9 @@
     <dependency
         name=":androidx.lifecycle.lifecycle-livedata-core-2.0.0:@aar"/>
     <dependency
-        name=":androidx.viewpager.viewpager-1.0.0:@aar"/>
+        name=":UnityAds:@aar"/>
     <dependency
-        name=":androidx.lifecycle.lifecycle-process-2.0.0:@aar"/>
+        name=":androidx.viewpager.viewpager-1.0.0:@aar"/>
     <dependency
         name=":androidx.lifecycle.lifecycle-livedata-2.0.0:@aar"/>
     <dependency
@@ -56,6 +56,8 @@
         name=":com.ironsource.sdk.mediationsdk-7.2.6:@aar"/>
     <dependency
         name=":androidx.localbroadcastmanager.localbroadcastmanager-1.0.0:@aar"/>
+    <dependency
+        name=":androidx.lifecycle.lifecycle-process-2.0.0:@aar"/>
     <dependency
         name=":androidx.lifecycle.lifecycle-viewmodel-2.0.0:@aar"/>
     <dependency
@@ -74,8 +76,6 @@
         name=":androidx.legacy.legacy-support-core-ui-1.0.0:@aar"/>
     <dependency
         name=":com.google.android.gms.play-services-basement-18.1.0:@aar"/>
-    <dependency
-        name=":com.unity3d.ads.unity-ads-4.5.0:@aar"/>
     <dependency
         name=":com.unity3d.mediation.mediation-logger-1.1.0:@aar"/>
     <dependency
@@ -99,17 +99,17 @@
     <dependency
         name=":com.unity3d.mediation.mediation-adapter-1.1.0:@aar"/>
     <dependency
-        name=":androidx.lifecycle.lifecycle-service-2.0.0:@aar"/>
-    <dependency
         name=":androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:@aar"/>
     <dependency
-        name=":androidx.arch.core.core-runtime-2.0.0:@aar"/>
+        name=":androidx.lifecycle.lifecycle-service-2.0.0:@aar"/>
     <dependency
-        name=":androidx.versionedparcelable.versionedparcelable-1.1.0:@aar"/>
+        name=":androidx.arch.core.core-runtime-2.0.0:@aar"/>
     <dependency
         name=":androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:@aar"/>
     <dependency
         name=":androidx.print.print-1.0.0:@aar"/>
+    <dependency
+        name=":androidx.versionedparcelable.versionedparcelable-1.1.0:@aar"/>
     <dependency
         name="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:IronSource.plugin::release"
         simpleName="Gradle.unityLibrary:IronSource.plugin"/>

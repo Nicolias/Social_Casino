@@ -66,9 +66,9 @@
       resolved="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
   <library
       name=":androidx.startup.startup-runtime-1.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\3771d6a1f9b46b3400676aab98abfd2d\transformed\androidx.startup.startup-runtime-1.0.0\jars\classes.jar"
       resolved=":androidx.startup.startup-runtime-1.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\3771d6a1f9b46b3400676aab98abfd2d\transformed\androidx.startup.startup-runtime-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -117,10 +117,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name=":androidx.viewpager.viewpager-1.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\52e6ecf2a6cc4dcc6215f49277b1a175\transformed\androidx.viewpager.viewpager-1.0.0\jars\classes.jar"
-      resolved=":androidx.viewpager.viewpager-1.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\52e6ecf2a6cc4dcc6215f49277b1a175\transformed\androidx.viewpager.viewpager-1.0.0"
+      name=":UnityAds:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\jars\classes.jar;C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\jars\libs\unity-scaradapter-1920.jar;C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\jars\libs\unity-scaradapter-1950.jar;C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\jars\libs\unity-scaradapter-2000.jar;C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\jars\libs\unity-scaradapter-common.jar"
+      resolved=":UnityAds:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -130,10 +130,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name=":androidx.lifecycle.lifecycle-process-2.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\jars\classes.jar"
-      resolved=":androidx.lifecycle.lifecycle-process-2.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0"
+      name=":androidx.viewpager.viewpager-1.0.0:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\52e6ecf2a6cc4dcc6215f49277b1a175\transformed\androidx.viewpager.viewpager-1.0.0\jars\classes.jar"
+      resolved=":androidx.viewpager.viewpager-1.0.0:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\52e6ecf2a6cc4dcc6215f49277b1a175\transformed\androidx.viewpager.viewpager-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -170,9 +170,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.ironsource.sdk.mediationsdk-7.2.6:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\1597bd2e9d4ea0bf2e4ebd9d3b475e0a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\jars\classes.jar"
       resolved=":com.ironsource.sdk.mediationsdk-7.2.6:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\1597bd2e9d4ea0bf2e4ebd9d3b475e0a\transformed\com.ironsource.sdk.mediationsdk-7.2.6"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -186,6 +186,19 @@
       jars="C:\Users\marat\.gradle\caches\transforms-3\08cffaad110661a95c6f1f8e9d2905d8\transformed\androidx.localbroadcastmanager.localbroadcastmanager-1.0.0\jars\classes.jar"
       resolved=":androidx.localbroadcastmanager.localbroadcastmanager-1.0.0:"
       folder="C:\Users\marat\.gradle\caches\transforms-3\08cffaad110661a95c6f1f8e9d2905d8\transformed\androidx.localbroadcastmanager.localbroadcastmanager-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":androidx.lifecycle.lifecycle-process-2.0.0:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\2bf8af57feca37528f41ffbda1b94954\transformed\androidx.lifecycle.lifecycle-process-2.0.0\jars\classes.jar"
+      resolved=":androidx.lifecycle.lifecycle-process-2.0.0:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\2bf8af57feca37528f41ffbda1b94954\transformed\androidx.lifecycle.lifecycle-process-2.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -209,9 +222,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.unity3d.mediation.mediation-sdk-1.1.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\68ec5dcdeed21268f43bc5c7749518de\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\jars\classes.jar"
       resolved=":com.unity3d.mediation.mediation-sdk-1.1.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\68ec5dcdeed21268f43bc5c7749518de\transformed\com.unity3d.mediation.mediation-sdk-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -235,9 +248,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.unity3d.mediation.unityads-adapter-1.1.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\37ff9b76cb7aa2ac32caf54dd41d6b90\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\jars\classes.jar"
       resolved=":com.unity3d.mediation.unityads-adapter-1.1.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\37ff9b76cb7aa2ac32caf54dd41d6b90\transformed\com.unity3d.mediation.unityads-adapter-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -303,19 +316,6 @@
       jars="C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\jars\classes.jar"
       resolved=":com.google.android.gms.play-services-basement-18.1.0:"
       folder="C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name=":com.unity3d.ads.unity-ads-4.5.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\jars\classes.jar;C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\jars\libs\unity-scaradapter-1920.jar;C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\jars\libs\unity-scaradapter-1950.jar;C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\jars\libs\unity-scaradapter-2000.jar;C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\jars\libs\unity-scaradapter-2100.jar;C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\jars\libs\unity-scaradapter-common.jar"
-      resolved=":com.unity3d.ads.unity-ads-4.5.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -430,9 +430,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\96d544703e59ba8cdb0db048157833b1\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\jars\classes.jar"
       resolved=":com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\96d544703e59ba8cdb0db048157833b1\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -468,19 +468,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name=":androidx.lifecycle.lifecycle-service-2.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0\jars\classes.jar"
-      resolved=":androidx.lifecycle.lifecycle-service-2.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name=":androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:@aar"
       jars="C:\Users\marat\.gradle\caches\transforms-3\a505e16fb99ec69e30000a4393e47f22\transformed\androidx.swiperefreshlayout.swiperefreshlayout-1.0.0\jars\classes.jar"
       resolved=":androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:"
@@ -494,10 +481,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name=":androidx.arch.core.core-runtime-2.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\7a4ff29921d2d9ab49365581ce606187\transformed\androidx.arch.core.core-runtime-2.0.0\jars\classes.jar"
-      resolved=":androidx.arch.core.core-runtime-2.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\7a4ff29921d2d9ab49365581ce606187\transformed\androidx.arch.core.core-runtime-2.0.0"
+      name=":androidx.lifecycle.lifecycle-service-2.0.0:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0\jars\classes.jar"
+      resolved=":androidx.lifecycle.lifecycle-service-2.0.0:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -507,10 +494,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name=":androidx.versionedparcelable.versionedparcelable-1.1.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\jars\classes.jar"
-      resolved=":androidx.versionedparcelable.versionedparcelable-1.1.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0"
+      name=":androidx.arch.core.core-runtime-2.0.0:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\7a4ff29921d2d9ab49365581ce606187\transformed\androidx.arch.core.core-runtime-2.0.0\jars\classes.jar"
+      resolved=":androidx.arch.core.core-runtime-2.0.0:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\7a4ff29921d2d9ab49365581ce606187\transformed\androidx.arch.core.core-runtime-2.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -537,6 +524,19 @@
       jars="C:\Users\marat\.gradle\caches\transforms-3\f1edf6e89a4764e0cd47f509ec60abba\transformed\androidx.print.print-1.0.0\jars\classes.jar"
       resolved=":androidx.print.print-1.0.0:"
       folder="C:\Users\marat\.gradle\caches\transforms-3\f1edf6e89a4764e0cd47f509ec60abba\transformed\androidx.print.print-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":androidx.versionedparcelable.versionedparcelable-1.1.0:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\jars\classes.jar"
+      resolved=":androidx.versionedparcelable.versionedparcelable-1.1.0:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
