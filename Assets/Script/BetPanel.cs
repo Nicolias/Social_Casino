@@ -42,11 +42,9 @@ public class BetPanel : MonoBehaviour
     private void AdjustBet()
     {
         if (_playerBet > _creditPanel.CreditsCount)
-        {
             _playerBet = _creditPanel.CreditsCount;
 
-            ChangeBetTexts();
-        }
+        ChangeBetTexts();
     }
 
     private void AddBet()

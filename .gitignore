@@ -5,3 +5,5 @@ Library/PackageCache/com.unity.burst@1.7.4/.Runtime/hostmac/lld
 Library/PackageCache/com.unity.burst@1.7.4/.Runtime/libburst-llvm-12.dylib
 Library/ArtifactDB
 Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/local_aar_for_lint/release/out.aar
+*.aar
+Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/local_aar_for_lint/release/out.aar

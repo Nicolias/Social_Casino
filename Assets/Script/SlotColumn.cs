@@ -12,7 +12,7 @@ public class SlotColumn : SerializedMonoBehaviour
     [SerializeField] private Dictionary<CellsType, double> _cellsWinNumbers;
 
     private const float _maxSpeed = 3.5f;
-    private const float _minSpeed = 0.35f;
+    private const float _minSpeed = 0.8f;
 
     private double _winNumber;
     private float _currentSpeed;
