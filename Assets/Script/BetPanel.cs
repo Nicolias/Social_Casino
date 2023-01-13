@@ -1,17 +1,25 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Zenject;
 
 public class BetPanel : MonoBehaviour
 {
     [SerializeField] private TMP_Text _betCountUnderSlotText, _betCountUpPanelText;
     [SerializeField] private Button _decreaseButton, _addButton;
-    [SerializeField] private CreditPanel _creditPanel;
 
-    private int _playerBet = 100;
+    private CreditPanel _creditPanel;
+
     private const int _betChangeStep = 100;
+    private int _playerBet = 100;
 
     public int PlayerBet => _playerBet;
+
+    [Inject]
+    public void Construct(CreditPanel creditPanel)
+    {
+        _creditPanel = creditPanel;
+    }
 
     private void OnEnable()
     {

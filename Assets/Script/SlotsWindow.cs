@@ -7,25 +7,26 @@ using Zenject;
 public class SlotsWindow : MonoBehaviour
 {
     [SerializeField] private List<SlotColumn> _slots;
-
-    [SerializeField] private BetPanel _betPanel;
-
     [SerializeField] private Button _spinButton;
 
-    [SerializeField] private WinWindow _winWindow;
-
+    private BetPanel _betPanel;
     private CreditPanel _creditPanel;
+
     private WinRateGenerator _winRateGenerator;
     private CombinationInterpreter _combinationInterpreter;
 
     private int? _currentBet;
 
     [Inject]
-    public void Construct(CombinationInterpreter combinationInterpreter, WinRateGenerator winRateGenerator, CreditPanel creditPanel)
+    public void Construct(  CombinationInterpreter combinationInterpreter, 
+                            WinRateGenerator winRateGenerator, 
+                            CreditPanel creditPanel, 
+                            BetPanel betPanel)
     {
         _combinationInterpreter = combinationInterpreter;
         _winRateGenerator = winRateGenerator;
         _creditPanel = creditPanel;
+        _betPanel = betPanel;
     }
 
     private void Awake()
@@ -84,7 +85,7 @@ public class SlotsWindow : MonoBehaviour
             yield return new WaitUntil(() => currentSlot.IsStoped != false);
         }
         
-        _combinationInterpreter.InterpritateCombination(slotsCombination, _winWindow, (int)_currentBet);
+        _combinationInterpreter.InterpritateCombination(slotsCombination, (int)_currentBet);
 
         _spinButton.interactable = true;
 

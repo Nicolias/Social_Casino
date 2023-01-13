@@ -1,12 +1,20 @@
 ﻿using UnityEngine;
 using TMPro;
+using Zenject;
 
 public class WinWindow : MonoBehaviour
 {
-    [SerializeField] private CreditPanel _creditPanel;
     [SerializeField] private TMP_Text _winCountText, _prizeCountText;
 
+    private CreditPanel _creditPanel;
+
     private int _winCount;
+
+    [Inject]
+    public void Constract(CreditPanel creditPanel)
+    {
+        _creditPanel = creditPanel;
+    }
 
     public void AccrueWinnings(int prize)
     {

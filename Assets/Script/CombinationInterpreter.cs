@@ -2,7 +2,14 @@
 
 public class CombinationInterpreter
 {
-    public void InterpritateCombination(List<CellsType> slotsCombination, WinWindow winWindow, int currentBet)
+    private WinWindow _winWindow;
+
+    public CombinationInterpreter(WinWindow winWindow)
+    {
+        _winWindow = winWindow;
+    }
+
+    public void InterpritateCombination(List<CellsType> slotsCombination, int currentBet)
     {
         int winStrik = 0;
 
@@ -11,6 +18,6 @@ public class CombinationInterpreter
                 winStrik++;
 
         if (winStrik == slotsCombination.Count)
-            winWindow.AccrueWinnings(currentBet * 2);
+            _winWindow.AccrueWinnings(currentBet * 2);
     }
 }

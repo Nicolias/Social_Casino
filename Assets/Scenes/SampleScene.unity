@@ -2261,7 +2261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4295eb43e2de8a34881bffcbcf29827c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _creditPanel: {fileID: 172573701}
   _winCountText: {fileID: 1532355542}
   _prizeCountText: {fileID: 1844021150}
 --- !u!1 &420976790
@@ -3392,9 +3391,7 @@ MonoBehaviour:
   - {fileID: 442981626}
   - {fileID: 1879838993}
   - {fileID: 668900518}
-  _betPanel: {fileID: 1465263901}
   _spinButton: {fileID: 1985640500}
-  _winWindow: {fileID: 403035902}
 --- !u!1 &598656550
 GameObject:
   m_ObjectHideFlags: 0
@@ -8412,6 +8409,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _creditPanel: {fileID: 172573701}
+  _betPanel: {fileID: 1465263901}
+  _winWindow: {fileID: 403035902}
 --- !u!114 &1130020854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10786,7 +10785,6 @@ MonoBehaviour:
   _betCountUpPanelText: {fileID: 996854533}
   _decreaseButton: {fileID: 1209329947}
   _addButton: {fileID: 1448343332}
-  _creditPanel: {fileID: 172573701}
 --- !u!1 &1472324933
 GameObject:
   m_ObjectHideFlags: 0

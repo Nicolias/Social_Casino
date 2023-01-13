@@ -11,7 +11,7 @@ public class SlotColumn : SerializedMonoBehaviour
 
     [SerializeField] private Dictionary<CellsType, double> _cellsWinNumbers;
 
-    private const float _maxSpeed = 2.5f;
+    private const float _maxSpeed = 3.5f;
     private const float _minSpeed = 0.35f;
 
     private double _winNumber;
@@ -32,7 +32,7 @@ public class SlotColumn : SerializedMonoBehaviour
     {
         _winNumber = _cellsWinNumbers[winCell];
 
-        StartCoroutine(DecreaseSpeedAfterEverySecondsByValue(0.2f, 0.1f));
+        StartCoroutine(DecreaseSpeedAfterEverySecondsByValue(0.1f, 0.1f));
     }
 
     private IEnumerator ScrollSlot()
@@ -55,7 +55,6 @@ public class SlotColumn : SerializedMonoBehaviour
                 _scrollbar.value = 0;
         }
 
-        _scrollbar.value = GetClosestNumberBetweenNumbersByStep(Math.Round(_scrollbar.value, 2), 15);
         _isStoped = true;
 
         StopAllCoroutines();
@@ -72,17 +71,5 @@ public class SlotColumn : SerializedMonoBehaviour
             if (_currentSpeed < 0)
                 _currentSpeed = 0;
         }
-    }
-
-    private float GetClosestNumberBetweenNumbersByStep(double value, int step)
-    {
-        value *= 100;
-        double temp = value / step;
-
-        if (temp % 1 * 10 >= 5)
-            temp += 1;
-
-        temp -= temp % 1;
-        return (float)(temp * step / 100);
     }
 }
