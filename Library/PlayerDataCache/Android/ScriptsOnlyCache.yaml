@@ -6,14 +6,13 @@ ScriptsOnlyBuild:
     - BetPanel
     - BootstrapInstaller
     - CreditPanel
-    - GleyMobileAds.AdSettings
     - SlotColumn
     - SlotsWindow
     - WinWindow
     Sirenix.OdinInspector.Editor.dll:
-    - Sirenix.OdinInspector.Editor.GeneralDrawerConfig
     - Sirenix.OdinInspector.Editor.ImportSettingsConfig
     - Sirenix.OdinInspector.Editor.InspectorConfig
+    - Sirenix.OdinInspector.Editor.Modules.OdinModuleConfig
     - Sirenix.OdinInspector.Editor.UndoTracker
     - Sirenix.OdinInspector.Editor.UndoTrackerStateContainer
     - Sirenix.Serialization.AOTGenerationConfig
@@ -430,7 +429,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 32780}
+      Script: {instanceID: 57610}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124

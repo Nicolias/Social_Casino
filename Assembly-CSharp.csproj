@@ -86,6 +86,7 @@
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\SetConsentToYes.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceBannerEvents.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\BoltSupport\MobileAdsBoltSupport.cs" />
+    <Compile Include="Assets\Script\SlotItem.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomChartboost.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\InitializePlaymakerAds.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAdColony.cs" />
@@ -115,7 +116,6 @@
     <Compile Include="Assets\Script\SlotColumn.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSource.cs" />
     <Compile Include="Assets\IronSource\Scripts\iOSAgent.cs" />
-    <Compile Include="Assets\Script\Ads\Ad.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoManualAndroid.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoAndroid.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\IsInterstitialAvailable.cs" />

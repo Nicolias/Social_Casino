@@ -40,12 +40,24 @@ public class SlotsWindow : MonoBehaviour
             Advertisements.Instance.SetUserConsent(false);
             Advertisements.Instance.Initialize();
         }
+
+
+        Application.targetFrameRate = 20;
     }
 
     private void OnEnable()
     {
-        _spinButton.onClick.AddListener(SpinSlots);
-        Advertisements.Instance.ShowBanner(BannerPosition.BOTTOM);
+        _spinButton.onClick.AddListener(TrySpinSlots);
+        StartCoroutine(LoadBaner());
+
+        IEnumerator LoadBaner()
+        {
+            while (Advertisements.Instance.IsBannerOnScreen() == false)
+            {
+                yield return new WaitForSeconds(0.1f);
+                Advertisements.Instance.ShowBanner(BannerPosition.BOTTOM);
+            }
+        }
     }
 
     private void OnDisable()
@@ -54,8 +66,11 @@ public class SlotsWindow : MonoBehaviour
         Advertisements.Instance.HideBanner();
     }
 
-    private void SpinSlots()
+    private void TrySpinSlots()
     {
+        if (_betPanel.PlayerBet == 0)
+            return;
+
         List<CellsType> slotsCombination = _winRateGenerator.GetSlotsCombinationList(_slots.Count);
 
         if (slotsCombination != null)
@@ -74,7 +89,10 @@ public class SlotsWindow : MonoBehaviour
         int index = 0;
 
         foreach (var slot in _slots)
+        {
             slot.SpinSlot();
+            yield return new WaitForSeconds(0.5f);
+        }
 
         while (index < _slots.Count)
         {
