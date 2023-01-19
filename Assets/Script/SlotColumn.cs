@@ -6,70 +6,67 @@ using Sirenix.OdinInspector;
 
 public class SlotColumn : SerializedMonoBehaviour
 {
-    [SerializeField] private Scrollbar _scrollbar;
-
-    [SerializeField] private Dictionary<CellsType, double> _cellsWinNumbers;
-
     [SerializeField] private List<SlotItem> _slotItems;
 
-    [SerializeField] private float _maxSpeed = 1f;
-    private const float _minSpeed = 0;
+    [SerializeField] private readonly float _spinTime;
+    private float _currentSpineTime;
 
     [SerializeField] private float _upperBorder, _bottemBorder;
 
     private SlotItem _winCell;
 
     private bool _isStoped;
+    private bool _canStop;
+
     public bool IsStoped => _isStoped;
-    public float CurrentSpeed { get; private set; }
+    public const float _speed = 10f;
 
-    public void SpinSlot()
-    {
-        CurrentSpeed = _maxSpeed;
-
-        _isStoped = false;
-        StartCoroutine(ScrollSlot());
-    }
-
-    public void StopSlotOnCell(CellsType winCell)
+    public void SetStopCell(CellsType winCell)
     {
         foreach (var slotItem in _slotItems)
             if (slotItem.CellsType == winCell)
                 _winCell = slotItem;
+    }
 
-        //StartCoroutine(DecreaseSpeedAfterEverySecondsByValue(0.1f, 0.1f));
+    public void SpinSlot()
+    {
+        if (_winCell == null) throw new System.InvalidOperationException("Победная ячейка не указана");
+
+        _canStop = false;
+        _isStoped = false;
+        _currentSpineTime = _spinTime;
+
+        StartCoroutine(ScrollSlot());
+        StartCoroutine(WaitSeconds(_spinTime));
+        IEnumerator WaitSeconds(float seconds)
+        {
+            yield return new WaitForSeconds(seconds);
+
+            _currentSpineTime = 0;
+        }
+    }
+
+    public void CanStop()
+    {
+        _canStop = true;
     }
 
     private IEnumerator ScrollSlot()
     {
-        for (int i = 0; i < _slotItems.Count; i++)
-            _slotItems[i].MoveDown();
+        while (_currentSpineTime > 0 | _canStop == false)
+            yield return MoveSpin();
 
-        while (CurrentSpeed > _minSpeed)
-        {
-            MoveSpin();
+        while (_winCell.transform.position.y >= 1.9 | _winCell.transform.position.y <= 1.4)
+            yield return MoveSpin();
 
-            yield return new WaitForEndOfFrame();
-        }
-        //yield return new WaitUntil(() => _winCell.transform.localPosition.y >= -144 & _winCell.transform.localPosition.y <= -140);
-
-        foreach (var slotItem in _slotItems)
-            slotItem.StopMovment();
-
-
-        //while (CurrentSpeed > _minSpeed | Math.Round(_scrollbar.value, 2) != _winNumber)
-        //{
-        //    yield return new WaitForSeconds(0.01f);
-
-
-        //}
-
-        void MoveSpin()
+        IEnumerator MoveSpin()
         {
             transform.position -= new Vector3(
                 0,
-                CurrentSpeed * Time.deltaTime
+                0.79f
                 , 0);
+
+            yield return new WaitForEndOfFrame();
 
             if (transform.position.y <= _bottemBorder)
                 transform.position = new Vector3(transform.position.x, _upperBorder, transform.position.z);
@@ -78,20 +75,5 @@ public class SlotColumn : SerializedMonoBehaviour
         _isStoped = true;
 
         StopAllCoroutines();
-
-        yield break;
-    }
-
-    private IEnumerator DecreaseSpeedAfterEverySecondsByValue(float seconds, float value)
-    {
-        while (CurrentSpeed > _minSpeed)
-        {
-            yield return new WaitForSeconds(seconds);
-
-            CurrentSpeed -= value;
-
-            if (CurrentSpeed < 0)
-                CurrentSpeed = 0;
-        }
     }
 }

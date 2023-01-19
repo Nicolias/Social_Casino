@@ -441,6 +441,7 @@
 "Assets/Script/CombinationInterpreter.cs"
 "Assets/Script/CreditPanel.cs"
 "Assets/Script/SlotColumn.cs"
+"Assets/Script/SlotItem.cs"
 "Assets/Script/SlotsWindow.cs"
 "Assets/Script/WinRateGenerator.cs"
 "Assets/Script/WinWindow.cs"

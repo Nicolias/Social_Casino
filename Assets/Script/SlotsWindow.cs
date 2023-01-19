@@ -40,9 +40,6 @@ public class SlotsWindow : MonoBehaviour
             Advertisements.Instance.SetUserConsent(false);
             Advertisements.Instance.Initialize();
         }
-
-
-        Application.targetFrameRate = 20;
     }
 
     private void OnEnable()
@@ -77,6 +74,7 @@ public class SlotsWindow : MonoBehaviour
         {
             _currentBet = _betPanel.PlayerBet;
 
+            _spinButton.interactable = false;
             _creditPanel.DecreaseCredits((int)_currentBet);
             StartCoroutine(StartSpinAnimation(slotsCombination));
         }
@@ -84,23 +82,23 @@ public class SlotsWindow : MonoBehaviour
 
     private IEnumerator StartSpinAnimation(List<CellsType> slotsCombination)
     {
-        _spinButton.interactable = false;
-
-        int index = 0;
+        for (int i = 0; i < _slots.Count; i++)
+        {
+            var currentSlot = _slots[i];
+            currentSlot.SetStopCell(slotsCombination[i]);
+        }
 
         foreach (var slot in _slots)
         {
             slot.SpinSlot();
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.25f);
         }
 
-        while (index < _slots.Count)
+        foreach (var slot in _slots)
         {
-            var currentSlot = _slots[index];
-            currentSlot.StopSlotOnCell(slotsCombination[index]);
-            index++;
+            slot.CanStop();
 
-            yield return new WaitUntil(() => currentSlot.IsStoped != false);
+            yield return new WaitUntil(() => slot.IsStoped);
         }
         
         _combinationInterpreter.InterpritateCombination(slotsCombination, (int)_currentBet);
