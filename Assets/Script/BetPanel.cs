@@ -25,8 +25,6 @@ public class BetPanel : MonoBehaviour
     {
         _creditPanel.OnCreditChanged += AdjustBet;
 
-        ChangeBetTexts();
-
         _addButton.onClick.AddListener(AddBet);
         _decreaseButton.onClick.AddListener(DecreaseBet);
     }
@@ -37,6 +35,14 @@ public class BetPanel : MonoBehaviour
 
         _addButton.onClick.RemoveAllListeners();
         _decreaseButton.onClick.RemoveAllListeners();
+    }
+
+    private void Start()
+    {
+        if (_playerBet > _creditPanel.CreditsCount)
+            _playerBet = _creditPanel.CreditsCount;
+
+        ChangeBetTexts();
     }
 
     private void AdjustBet()

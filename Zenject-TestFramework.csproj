@@ -58,11 +58,11 @@
     <Analyzer Include="D:\Unity\2021.3.1f1\Editor\2022.2.1f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\Zenject\OptionalExtras\TestFramework\ValidateOnlyAttribute.cs" />
-    <Compile Include="Assets\Plugins\Zenject\OptionalExtras\TestFramework\SceneTestFixture.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\TestFramework\SceneTestFixtureSceneReference.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\TestFramework\ZenjectTestUtil.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\TestFramework\ZenjectIntegrationTestFixture.cs" />
+    <Compile Include="Assets\Plugins\Zenject\OptionalExtras\TestFramework\ValidateOnlyAttribute.cs" />
+    <Compile Include="Assets\Plugins\Zenject\OptionalExtras\TestFramework\SceneTestFixture.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\TestFramework\ZenjectUnitTestFixture.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,23 +8,23 @@ public class CreditPanel : MonoBehaviour
 
     [SerializeField] private TMP_Text _creditsPanelText;
 
-    [SerializeField] private int _creditsCount;
+    private int _creditsCount;
     public int CreditsCount => _creditsCount;
 
-    private void OnEnable()
+    private void Awake()
     {
-        UpdateCreditsUIText();
+        LoadCoinsCount();
     }
 
     public void AddCredits(int creditsCount)
     {
         if (creditsCount < 0)
-            throw new InvalidOperationException("Начисляется отрицательное число");
+            throw new InvalidOperationException
+                ("Начисляется отрицательное число");
 
         _creditsCount += creditsCount;
 
-        UpdateCreditsUIText();
-        OnCreditChanged?.Invoke();
+        SaveNewCoinsCount();
     }
 
     public void DecreaseCredits(int creditsCount)
@@ -33,6 +33,19 @@ public class CreditPanel : MonoBehaviour
             throw new InvalidOperationException("Недостаточно средств");
 
         _creditsCount -= creditsCount;
+
+        SaveNewCoinsCount();        
+    }
+
+    private void LoadCoinsCount()
+    {
+        _creditsCount = PlayerPrefs.GetInt("Coins");
+        UpdateCreditsUIText();
+    }
+
+    private void SaveNewCoinsCount()
+    {
+        PlayerPrefs.SetInt("Coins", _creditsCount);
 
         UpdateCreditsUIText();
         OnCreditChanged?.Invoke();

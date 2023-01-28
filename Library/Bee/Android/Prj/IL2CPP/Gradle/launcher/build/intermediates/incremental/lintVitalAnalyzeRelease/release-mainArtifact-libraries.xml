@@ -66,9 +66,9 @@
       resolved="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
   <library
       name=":androidx.startup.startup-runtime-1.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\628ea79cc8af062e8824cb9c79a32720\transformed\androidx.startup.startup-runtime-1.0.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\c74892e8528af3c3caa988a06af7c808\transformed\androidx.startup.startup-runtime-1.0.0\jars\classes.jar"
       resolved=":androidx.startup.startup-runtime-1.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\628ea79cc8af062e8824cb9c79a32720\transformed\androidx.startup.startup-runtime-1.0.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\c74892e8528af3c3caa988a06af7c808\transformed\androidx.startup.startup-runtime-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -170,9 +170,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.ironsource.sdk.mediationsdk-7.2.6:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\02fc87f71b61a16d74b9117e815f4277\transformed\com.ironsource.sdk.mediationsdk-7.2.6\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\304b83d16da43dad8f000c4ebc997020\transformed\com.ironsource.sdk.mediationsdk-7.2.6\jars\classes.jar"
       resolved=":com.ironsource.sdk.mediationsdk-7.2.6:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\02fc87f71b61a16d74b9117e815f4277\transformed\com.ironsource.sdk.mediationsdk-7.2.6"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\304b83d16da43dad8f000c4ebc997020\transformed\com.ironsource.sdk.mediationsdk-7.2.6"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -196,9 +196,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":androidx.lifecycle.lifecycle-process-2.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\37c70a0413c22d8cdbf970e139aaadcf\transformed\androidx.lifecycle.lifecycle-process-2.0.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\b29d84e696aef34c305bb4b5144bd240\transformed\androidx.lifecycle.lifecycle-process-2.0.0\jars\classes.jar"
       resolved=":androidx.lifecycle.lifecycle-process-2.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\37c70a0413c22d8cdbf970e139aaadcf\transformed\androidx.lifecycle.lifecycle-process-2.0.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\b29d84e696aef34c305bb4b5144bd240\transformed\androidx.lifecycle.lifecycle-process-2.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -222,9 +222,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.unity3d.mediation.mediation-sdk-1.1.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\10a2ed1e984d0ba5793e5444b22e3721\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\155615f1f35b09b7436503d66d15e5b0\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\jars\classes.jar"
       resolved=":com.unity3d.mediation.mediation-sdk-1.1.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\10a2ed1e984d0ba5793e5444b22e3721\transformed\com.unity3d.mediation.mediation-sdk-1.1.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\155615f1f35b09b7436503d66d15e5b0\transformed\com.unity3d.mediation.mediation-sdk-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -248,9 +248,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.unity3d.mediation.unityads-adapter-1.1.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\a914ddfed941c03230c2c5cb4f267c60\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\a08da4a36d4a150d5bbf08618bd66863\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\jars\classes.jar"
       resolved=":com.unity3d.mediation.unityads-adapter-1.1.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\a914ddfed941c03230c2c5cb4f267c60\transformed\com.unity3d.mediation.unityads-adapter-1.1.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\a08da4a36d4a150d5bbf08618bd66863\transformed\com.unity3d.mediation.unityads-adapter-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -430,9 +430,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\0e2ea87a29c76a12648d7a3640099d7f\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\d99560537b748512a0f90340a16bde1a\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\jars\classes.jar"
       resolved=":com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\0e2ea87a29c76a12648d7a3640099d7f\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\d99560537b748512a0f90340a16bde1a\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

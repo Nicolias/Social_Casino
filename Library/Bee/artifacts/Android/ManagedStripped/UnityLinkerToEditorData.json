@@ -73,7 +73,9 @@
           },
           {
             "name": "AudioSource",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SampleScene1.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -384,7 +386,9 @@
           },
           {
             "name": "SpriteAtlas",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SampleScene1.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

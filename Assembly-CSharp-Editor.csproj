@@ -59,40 +59,40 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\InitializeGleyAdsEditor.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\RemoveAdsEditor.cs" />
-    <Compile Include="Assets\GleyPlugins\About\Editor\AssetVersions.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\SetConsentToNoEditor.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\SetConsentToYesEditor.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\ShowBannerEditor.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\Editor\AdSettingsDataEditor.cs" />
-    <Compile Include="Assets\IronSource\Editor\IronSourceDependenciesManagerConstants.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\ShowRewardedVideoEditor.cs" />
     <Compile Include="Assets\GleyPlugins\Common\Editor\PreprocessorDirective.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\IsRewardedVideoAvailableEditor.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceBuildPostprocessor.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\Editor\PostBuildStep.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceMenu.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceEditorCoroutines.cs" />
-    <Compile Include="Assets\IronSource\Editor\IronSourceManifestProcessor.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceMediatedNetworkSettings.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourcePlistProcessor.cs" />
+    <Compile Include="Assets\GleyPlugins\About\Editor\AssetVersion.cs" />
+    <Compile Include="Assets\GleyPlugins\About\Editor\EditorFileLoader.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\HideBannerEditor.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\Editor\SettingsWindow.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceMediatedNetworkSettingsInspector.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceDependenciesManager.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\RemoveAdsEditor.cs" />
+    <Compile Include="Assets\GleyPlugins\About\Editor\AssetVersions.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\SetConsentToNoEditor.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\SetConsentToYesEditor.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceDependenciesManagerConstants.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\IsRewardedVideoAvailableEditor.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceManifestProcessor.cs" />
     <Compile Include="Assets\GleyPlugins\Common\Editor\ImportRequiredPackages.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\IsInterstitialAvailableEditor.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\AssetStorePackage.cs" />
-    <Compile Include="Assets\IronSource\Editor\IronSourcePlistProcessor.cs" />
     <Compile Include="Assets\GleyPlugins\Common\Editor\Constants.cs" />
-    <Compile Include="Assets\GleyPlugins\About\Editor\AssetVersion.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\ShowInterstitialEditor.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceMediationSettingsInspector.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\IconReferences.cs" />
-    <Compile Include="Assets\GleyPlugins\About\Editor\EditorFileLoader.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\UserConsentWasSetEditor.cs" />
     <Compile Include="Assets\IronSource\Editor\IAdapterSettings.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\GleyAboutWindow.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\HideBannerEditor.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\Editor\SettingsWindow.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\AssetState.cs" />
-    <Compile Include="Assets\IronSource\Editor\IronSourceMediatedNetworkSettingsInspector.cs" />
-    <Compile Include="Assets\IronSource\Editor\IronSourceDependenciesManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll" />
@@ -847,8 +847,14 @@
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Services.Analytics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Analytics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
@@ -883,8 +889,14 @@
     <Reference Include="Unity.Services.Core.Environments">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
@@ -895,6 +907,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
@@ -903,6 +918,9 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
@@ -913,6 +931,9 @@
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -921,6 +942,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -960,6 +984,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>

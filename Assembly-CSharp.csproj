@@ -58,63 +58,82 @@
     <Analyzer Include="D:\Unity\2021.3.1f1\Editor\2022.2.1f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\IronSource\Scripts\IUnitySegment.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAdmob.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\ScreenWriter.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\AdvertiserSettings.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Example\Implementation.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomHeyzap.cs" />
-    <Compile Include="Assets\Script\CreditPanel.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\RemoveAds.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionData.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionDataAndroid.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowBanner.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\AdSettings.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceOfferwallAndroid.cs" />
     <Compile Include="Assets\Script\CombinationInterpreter.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourcePlacement.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialLevelPlayAndroid.cs" />
     <Compile Include="Assets\IronSource\Scripts\IUnityRewardedVideo.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowRewardedVideo.cs" />
+    <Compile Include="Assets\Script\Test.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomMoPub.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\SetConsentToNo.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceSegmentAndroid.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\HideBanner.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceIAgent.cs" />
-    <Compile Include="Assets\IronSource\Scripts\UnsupportedPlatformAgent.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\UserConsentWasSet.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\SetConsentToYes.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerEvents.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\BoltSupport\MobileAdsBoltSupport.cs" />
-    <Compile Include="Assets\Script\SlotItem.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomChartboost.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\InitializePlaymakerAds.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAdColony.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityBanner.cs" />
     <Compile Include="Assets\IronSource\Scripts\IUnityRewardedVideoManual.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\InitializeGleyAds.cs" />
     <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayInterstitial.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowRewardedVideo.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\UserConsentWasSet.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomUnityAds.cs" />
-    <Compile Include="Assets\Script\SlotsWindow.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceEventsDispatcher.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityImpressionData.cs" />
     <Compile Include="Assets\IronSource\Scripts\IUnityInterstitial.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\UserSettings.cs" />
     <Compile Include="Assets\Script\WinWindow.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceMediationSettings.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\IsInterstitialAvailable.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerAndroid.cs" />
     <Compile Include="Assets\Script\BetPanel.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\IsRewardedVideoAvailable.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomFacebook.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\AdTypeSettings.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceConstants.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSource.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideoManual.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideo.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityInitialization.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceEvents.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\Advertisements.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAppLovin.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowInterstitial.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Example\TestAds.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\ICustomAds.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomVungle.cs" />
+    <Compile Include="Assets\Script\BootstrapInstaller.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityOfferwall.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayBanner.cs" />
+    <Compile Include="Assets\Script\WinRateGenerator.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerLevelPlayAndroid.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceError.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceConfig.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialEvents.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnitySegment.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomHeyzap.cs" />
+    <Compile Include="Assets\Script\CreditPanel.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionDataAndroid.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowBanner.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceOfferwallAndroid.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourcePlacement.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialLevelPlayAndroid.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowRewardedVideo.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceSegmentAndroid.cs" />
+    <Compile Include="Assets\IronSource\Scripts\UnsupportedPlatformAgent.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\UserConsentWasSet.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerEvents.cs" />
+    <Compile Include="Assets\Script\SlotItem.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityBanner.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\InitializeGleyAds.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowRewardedVideo.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\UserConsentWasSet.cs" />
+    <Compile Include="Assets\Script\SlotsWindow.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceEventsDispatcher.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityImpressionData.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\UserSettings.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\IsInterstitialAvailable.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerAndroid.cs" />
+    <Compile Include="Assets\GleyPlugins\Ads\Scripts\AdTypeSettings.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\FileLoader.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowInterstitial.cs" />
     <Compile Include="Assets\Script\SlotColumn.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSource.cs" />
     <Compile Include="Assets\IronSource\Scripts\iOSAgent.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoManualAndroid.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoAndroid.cs" />
@@ -123,37 +142,22 @@
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\SetConsentToNo.cs" />
     <Compile Include="Assets\Script\CellsType.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\HideBanner.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideoManual.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideo.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityInitialization.cs" />
+    <Compile Include="Assets\Script\Purcheser.cs" />
+    <Compile Include="Assets\Script\AdsServise.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoEvents.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoLevelPlayManualAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceEvents.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceInitializationAndroid.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\Advertisements.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAppLovin.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\MediationSettings.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceJSON.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoLevelPlayAndroid.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowInterstitial.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Example\TestAds.cs" />
+    <Compile Include="Assets\Script\AudioServise.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\IsRewardedVideoAvailable.cs" />
     <Compile Include="Assets\IronSource\Scripts\AndroidAgent.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceUtils.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceInitilizer.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\ICustomAds.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomVungle.cs" />
-    <Compile Include="Assets\Script\BootstrapInstaller.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityOfferwall.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayBanner.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowBanner.cs" />
-    <Compile Include="Assets\Script\WinRateGenerator.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceAdInfo.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerLevelPlayAndroid.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceSegment.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceError.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceConfig.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialEvents.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\SetConsentToYes.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialAndroid.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\RemoveAds.cs" />
@@ -858,8 +862,14 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>D:\Unity\2021.3.1f1\Editor\2022.2.1f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Services.Analytics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Analytics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
@@ -894,8 +904,14 @@
     <Reference Include="Unity.Services.Core.Environments">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
@@ -906,6 +922,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
@@ -914,6 +933,9 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
@@ -924,6 +946,9 @@
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -932,6 +957,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -971,6 +999,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>

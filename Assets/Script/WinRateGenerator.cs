@@ -3,16 +3,16 @@ using System.Collections.Generic;
 
 public class WinRateGenerator
 {
+    private AdsServise _adsServise;
+
     private Dictionary<int, int> _rateBySpineDictionary;
     private int _spinStrik;
 
     private List<CellsType> _currenCellsList = new();
 
-    private CreditPanel _creditPanel;
-
-    public WinRateGenerator(CreditPanel creditPanel)
+    public WinRateGenerator(AdsServise adsServise)
     {
-        _creditPanel = creditPanel;
+        _adsServise = adsServise;
 
         _spinStrik = 0;
         _rateBySpineDictionary = new()
@@ -45,15 +45,16 @@ public class WinRateGenerator
 
         if (_spinStrik % 5 == 0)
         {
-            if (Advertisements.Instance.IsRewardVideoAvailable())
+            if (Advertisements.Instance.IsRewardVideoAvailable() && _adsServise.IsAdsBlocked == false)
             {
-                ShowAdAndAccrue(_rateBySpineDictionary[_spinStrik]);
+                _adsServise.ShowAdAndAccrue(_rateBySpineDictionary[_spinStrik]);
                 return null;
             }
-            else
-            {
-                _spinStrik++;
-            }
+
+            _spinStrik++;
+
+            if (_spinStrik > _rateBySpineDictionary.Count)
+                _spinStrik = 1;
         }
 
         if (Random.Range(0, 99) < _rateBySpineDictionary[_spinStrik])
@@ -76,27 +77,5 @@ public class WinRateGenerator
             else
                 slotsCount++;
         }
-    }
-
-    private void ShowAdAndAccrue(int prize)
-    {
-        Advertisements.Instance.ShowRewardedVideo(CompleteMethod);
-
-        void CompleteMethod(bool completed, string advertiser)
-        {
-            if (Advertisements.Instance.debug)
-            {
-                Debug.Log("Closed rewarded from: " + advertiser + " -> Completed " + completed);
-                GleyMobileAds.ScreenWriter.Write("Closed rewarded from: " + advertiser + " -> Completed " + completed);
-                if (completed == true)
-                {
-                    _creditPanel.AddCredits(prize);
-                }
-                else
-                {
-                    //no reward
-                }
-            }
-        }
-    }   
+    }    
 }

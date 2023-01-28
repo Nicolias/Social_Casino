@@ -938,9 +938,17 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.AudioSource
 
+		//System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
+		void Register_UnityEngine_AudioSource_PlayHelper();
+		Register_UnityEngine_AudioSource_PlayHelper();
+
 		//System.Void UnityEngine.AudioSource::PlayOneShotHelper(UnityEngine.AudioSource,UnityEngine.AudioClip,System.Single)
 		void Register_UnityEngine_AudioSource_PlayOneShotHelper();
 		Register_UnityEngine_AudioSource_PlayOneShotHelper();
+
+		//System.Void UnityEngine.AudioSource::set_mute(System.Boolean)
+		void Register_UnityEngine_AudioSource_set_mute();
+		Register_UnityEngine_AudioSource_set_mute();
 
 	//End Registrations for type : UnityEngine.AudioSource
 
@@ -2177,6 +2185,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
 		void Register_UnityEngine_Input_GetKeyInt();
 		Register_UnityEngine_Input_GetKeyInt();
+
+		//System.Boolean UnityEngine.Input::GetKeyUpInt(UnityEngine.KeyCode)
+		void Register_UnityEngine_Input_GetKeyUpInt();
+		Register_UnityEngine_Input_GetKeyUpInt();
 
 		//System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 		void Register_UnityEngine_Input_GetMouseButton();

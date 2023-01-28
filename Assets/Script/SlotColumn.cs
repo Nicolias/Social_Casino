@@ -8,8 +8,12 @@ public class SlotColumn : SerializedMonoBehaviour
 {
     [SerializeField] private List<SlotItem> _slotItems;
 
+    [SerializeField] private SlotItem _upperItem, _bottemItem;
+
     [SerializeField] private readonly float _spinTime;
     private float _currentSpineTime;
+
+    private Vector3 _startPosition;
 
     [SerializeField] private float _upperBorder, _bottemBorder;
 
@@ -19,7 +23,11 @@ public class SlotColumn : SerializedMonoBehaviour
     private bool _canStop;
 
     public bool IsStoped => _isStoped;
-    public const float _speed = 10f;
+
+    private void Awake()
+    {
+        _startPosition = transform.position;
+    }
 
     public void SetStopCell(CellsType winCell)
     {
@@ -54,12 +62,16 @@ public class SlotColumn : SerializedMonoBehaviour
     private IEnumerator ScrollSlot()
     {
         while (_currentSpineTime > 0 | _canStop == false)
-            yield return MoveSpin();
+            yield return MoveColumn();
 
-        while (_winCell.transform.position.y >= 1.9 | _winCell.transform.position.y <= 1.4)
-            yield return MoveSpin();
+        StopOnWinCell();
 
-        IEnumerator MoveSpin()
+        _isStoped = true;
+
+        StopAllCoroutines();
+    }
+
+    private IEnumerator MoveColumn()
         {
             transform.position -= new Vector3(
                 0,
@@ -72,8 +84,10 @@ public class SlotColumn : SerializedMonoBehaviour
                 transform.position = new Vector3(transform.position.x, _upperBorder, transform.position.z);
         }
 
-        _isStoped = true;
-
-        StopAllCoroutines();
-    }
+    private void StopOnWinCell()
+        {
+            transform.position = new Vector3(_startPosition.x,
+                _startPosition.y - (_upperItem.transform.position.y - _bottemItem.transform.position.y) / _slotItems.Count * _winCell.PositionInColomn,
+                _startPosition.z);
+        }
 }

@@ -15,18 +15,23 @@ public class SlotsWindow : MonoBehaviour
     private WinRateGenerator _winRateGenerator;
     private CombinationInterpreter _combinationInterpreter;
 
+    private AudioServise _audioServise;
+
     private int? _currentBet;
 
     [Inject]
     public void Construct(  CombinationInterpreter combinationInterpreter, 
                             WinRateGenerator winRateGenerator, 
                             CreditPanel creditPanel, 
-                            BetPanel betPanel)
+                            BetPanel betPanel,
+                            AudioServise audioServise)
     {
         _combinationInterpreter = combinationInterpreter;
         _winRateGenerator = winRateGenerator;
         _creditPanel = creditPanel;
         _betPanel = betPanel;
+
+        _audioServise = audioServise;
     }
 
     private void Awake()
@@ -65,6 +70,8 @@ public class SlotsWindow : MonoBehaviour
 
     private void TrySpinSlots()
     {
+        _audioServise.PressSpinButton.Play();
+
         if (_betPanel.PlayerBet == 0)
             return;
 
@@ -88,10 +95,12 @@ public class SlotsWindow : MonoBehaviour
             currentSlot.SetStopCell(slotsCombination[i]);
         }
 
+        _audioServise.SpinSound.Play();
+
         foreach (var slot in _slots)
         {
             slot.SpinSlot();
-            yield return new WaitForSeconds(0.25f);
+            yield return new WaitForSeconds(0.33f);
         }
 
         foreach (var slot in _slots)
