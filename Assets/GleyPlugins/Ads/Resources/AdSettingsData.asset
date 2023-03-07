@@ -244,7 +244,7 @@ MonoBehaviour:
     - platform: 0
       enabled: 1
       appId:
-        id: 5110871
+        id: 5149131
         displayName: Game ID
         notRequired: 0
       idBanner:

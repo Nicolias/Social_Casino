@@ -124,6 +124,9 @@
 -define:NMC_CAN_ACCESS_TERRAIN
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/AppsFlyer/Tests/Castle.Core.dll"
+-r:"Assets/AppsFlyer/Tests/NSubstitute.dll"
+-r:"Assets/AppsFlyer/Tests/System.Runtime.CompilerServices.Unsafe.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll"

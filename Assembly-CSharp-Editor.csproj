@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\InitializeGleyAdsEditor.cs" />
+    <Compile Include="Assets\GleyPlugins\CrossPromo\Scripts\VisualScriptingSupport\GameFlow\Editor\ShowPromoEditor.cs" />
+    <Compile Include="Assets\GleyPlugins\CrossPromo\Scripts\VisualScriptingSupport\GameFlow\Editor\AutoLoadAndShowEditor.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\ShowBannerEditor.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\Editor\AdSettingsDataEditor.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\ShowRewardedVideoEditor.cs" />
@@ -70,17 +72,21 @@
     <Compile Include="Assets\IronSource\Editor\IronSourceMediatedNetworkSettings.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourcePlistProcessor.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\AssetVersion.cs" />
+    <Compile Include="Assets\GleyPlugins\Common\Editor\EditorUtilities.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\EditorFileLoader.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\HideBannerEditor.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\Editor\SettingsWindow.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceMediatedNetworkSettingsInspector.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceDependenciesManager.cs" />
+    <Compile Include="Assets\GleyPlugins\CrossPromo\Scripts\Editor\SettingsWindow.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\RemoveAdsEditor.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\AssetVersions.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\SetConsentToNoEditor.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\SetConsentToYesEditor.cs" />
+    <Compile Include="Assets\GleyPlugins\Common\Editor\AssetVersion.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceDependenciesManagerConstants.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\IsRewardedVideoAvailableEditor.cs" />
+    <Compile Include="Assets\GleyPlugins\CrossPromo\Scripts\VisualScriptingSupport\GameFlow\Editor\ForceShowPromoEditor.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceManifestProcessor.cs" />
     <Compile Include="Assets\GleyPlugins\Common\Editor\ImportRequiredPackages.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\Editor\IsInterstitialAvailableEditor.cs" />
@@ -93,10 +99,11 @@
     <Compile Include="Assets\IronSource\Editor\IAdapterSettings.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\GleyAboutWindow.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\AssetState.cs" />
+    <Compile Include="Assets\GleyPlugins\CrossPromo\Scripts\VisualScriptingSupport\GameFlow\Editor\InitializeCrossPromoEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll" />
     <None Include="Assets\ExternalDependencyManager\Editor\1.2.175\Google.PackageManagerResolver.dll" />
+    <None Include="Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll" />
     <None Include="Assets\IronSource\Editor\IronSourceSDKDependencies.xml" />
     <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.175_manifest.txt" />
     <None Include="Assets\ExternalDependencyManager\Editor\1.2.175\Google.VersionHandlerImpl.dll" />
@@ -358,6 +365,9 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>D:\Unity\2021.3.1f1\Editor\2022.2.1f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>D:\Unity\2021.3.1f1\Editor\2022.2.1f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>D:\Unity\2021.3.1f1\Editor\2022.2.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
@@ -382,11 +392,11 @@
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
-    </Reference>
     <Reference Include="Google.PackageManagerResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.175\Google.PackageManagerResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="NSubstitute">
+      <HintPath>Assets\AppsFlyer\Tests\NSubstitute.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
@@ -424,11 +434,20 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\AppsFlyer\Tests\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Mdb">
       <HintPath>Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>Assets\AppsFlyer\Tests\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
@@ -961,14 +980,14 @@
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
@@ -1037,6 +1056,10 @@
       <Project>{73FE9D86-C0C6-D0BF-5C69-B00EBFAC856A}</Project>
       <Name>Zenject</Name>
     </ProjectReference>
+    <ProjectReference Include="AppsFlyer.Editor.csproj">
+      <Project>{D1BA4B3A-D191-A89F-ED92-2C003217071B}</Project>
+      <Name>AppsFlyer.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Zenject-PoolMonitor-Editor.csproj">
       <Project>{30692A28-331B-5956-4E1E-D02572DDC09C}</Project>
       <Name>Zenject-PoolMonitor-Editor</Name>
@@ -1052,6 +1075,10 @@
     <ProjectReference Include="Zenject-ReflectionBaking-Editor.csproj">
       <Project>{A1B4A2EC-1E13-C00C-0A13-281B23176DD4}</Project>
       <Name>Zenject-ReflectionBaking-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AppsFlyer.csproj">
+      <Project>{FA8793C6-F3D7-6AEE-FB7D-DFF2F0A54035}</Project>
+      <Name>AppsFlyer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

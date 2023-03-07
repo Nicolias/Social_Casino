@@ -4,27 +4,29 @@ ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\l
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-MERGED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-67:12
-MERGED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-68:12
+MERGED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.slidingpanelayout.slidingpanelayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\b50b0539995c0493db3e244c2b46883e\transformed\androidx.slidingpanelayout.slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.drawerlayout.drawerlayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ca2fbaeaa010157532796ae2e5b0863a\transformed\androidx.drawerlayout.drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.lifecycle.lifecycle-livedata-core-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\28ab0f39206edd12bb57e787174ed7c3\transformed\androidx.lifecycle.lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:2:1-36:12
 MERGED from [:androidx.viewpager.viewpager-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\52e6ecf2a6cc4dcc6215f49277b1a175\transformed\androidx.viewpager.viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.lifecycle.lifecycle-livedata-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\c074f2eb9bd2104b428bbe4baf2e7126\transformed\androidx.lifecycle.lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.coordinatorlayout.coordinatorlayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\82ce123ccc2811252c2032bb09aed8a7\transformed\androidx.coordinatorlayout.coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:2:1-12:12
+MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:2:1-12:12
 MERGED from [:androidx.localbroadcastmanager.localbroadcastmanager-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\08cffaad110661a95c6f1f8e9d2905d8\transformed\androidx.localbroadcastmanager.localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.lifecycle.lifecycle-viewmodel-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\2abb8773c6d00f77f1bef9482f53d2c5\transformed\androidx.lifecycle.lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:2:1-12:12
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:2:1-12:12
 MERGED from [:androidx.customview.customview-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\cc88c5bb393326f9640e49cde21086e1\transformed\androidx.customview.customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [:common:] C:\Users\marat\.gradle\caches\transforms-3\79de28caf7dab24c9109c5f436013c4f\transformed\common\AndroidManifest.xml:2:1-12:12
+MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [:androidx.documentfile.documentfile-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\4a9a823681c1b055e0a89bfe9ef4702b\transformed\androidx.documentfile.documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.lifecycle.lifecycle-runtime-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\d75a953e508497214b2b1e128207bfd5\transformed\androidx.lifecycle.lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.loader.loader-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\5ad5b000b0a1195f11fc08b6f9479d5b\transformed\androidx.loader.loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:2:1-24:12
 MERGED from [:androidx.legacy.legacy-support-core-ui-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d0f02d9b471414e121c686f2467c3d0\transformed\androidx.legacy.legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:2:1-36:12
 MERGED from [:com.unity3d.mediation.mediation-logger-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\fa5e257942a25ff27794562cdcf4899b\transformed\com.unity3d.mediation.mediation-logger-1.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [:androidx.legacy.legacy-support-core-utils-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\1a1b31046a5b849bc9d97952fb73c469\transformed\androidx.legacy.legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.tracing.tracing-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec80ec70e69005ca764be62648b341bd\transformed\androidx.tracing.tracing-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -33,21 +35,21 @@ MERGED from [:androidx.fragment.fragment-1.0.0:] C:\Users\marat\.gradle\caches\t
 MERGED from [:androidx.lifecycle.lifecycle-extensions-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\889d10ccc76ef6506de1983ae90e6505\transformed\androidx.lifecycle.lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [:androidx.cursoradapter.cursoradapter-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\e9344c4b9ac30a31b49a43865097aea4\transformed\androidx.cursoradapter.cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:com.google.android.gms.play-services-ads-identifier-18.0.1:] C:\Users\marat\.gradle\caches\transforms-3\da5b59efb37d2c0da69d2dc80e1ff597\transformed\com.google.android.gms.play-services-ads-identifier-18.0.1\AndroidManifest.xml:17:1-27:12
-MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [:androidx.interpolator.interpolator-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\c156797fd539de38c34d80dc52651962\transformed\androidx.interpolator.interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:com.unity3d.mediation.mediation-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\12a816a1c55590404a0fc59db9bf9abe\transformed\com.unity3d.mediation.mediation-adapter-1.1.0\AndroidManifest.xml:2:1-9:12
-MERGED from [:androidx.lifecycle.lifecycle-service-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\a505e16fb99ec69e30000a4393e47f22\transformed\androidx.swiperefreshlayout.swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.arch.core.core-runtime-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7a4ff29921d2d9ab49365581ce606187\transformed\androidx.arch.core.core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [:androidx.lifecycle.lifecycle-service-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\71adcae7125dbc7ba6d4fcf063061896\transformed\androidx.asynclayoutinflater.asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:androidx.print.print-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\f1edf6e89a4764e0cd47f509ec60abba\transformed\androidx.print.print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [:unityLibrary:IronSource.plugin] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-26:12
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 	package
-		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:70-111
+		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:70-103
 		INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 		INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 	android:versionName
@@ -55,7 +57,7 @@ INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradl
 		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 		INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:112-158
+		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:104-150
 	android:versionCode
 		INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
@@ -63,39 +65,43 @@ INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradl
 	xmlns:android
 		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:159-199
+		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:151-191
 application
 ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
-MERGED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:5-65:19
-MERGED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:5-65:19
-MERGED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:19:3-21:17
-MERGED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:19:3-21:17
-MERGED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:19:3-21:17
-MERGED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:19:3-21:17
-MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:6:3-11:17
-MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:6:3-11:17
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:7:3-11:17
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:7:3-11:17
-MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:5:3-9:17
-MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:5:3-9:17
+MERGED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:5-66:19
+MERGED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:5-66:19
+MERGED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:19:3-21:17
+MERGED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:19:3-21:17
+MERGED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:13:5-34:19
+MERGED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:13:5-34:19
+MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:6:3-11:17
+MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:6:3-11:17
+MERGED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:19:3-21:17
+MERGED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:19:3-21:17
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:7:3-11:17
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:7:3-11:17
+MERGED from [:common:] C:\Users\marat\.gradle\caches\transforms-3\79de28caf7dab24c9109c5f436013c4f\transformed\common\AndroidManifest.xml:9:5-10:19
+MERGED from [:common:] C:\Users\marat\.gradle\caches\transforms-3\79de28caf7dab24c9109c5f436013c4f\transformed\common\AndroidManifest.xml:9:5-10:19
+MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:5:3-9:17
+MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:5:3-9:17
+MERGED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:12:5-22:19
+MERGED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:12:5-22:19
 MERGED from [:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:13:5-34:19
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:13:5-34:19
 MERGED from [:androidx.core.core-1.2.0:] C:\Users\marat\.gradle\caches\transforms-3\201eb74e81184db3885d54050df243b6\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:24:5-89
 MERGED from [:androidx.core.core-1.2.0:] C:\Users\marat\.gradle\caches\transforms-3\201eb74e81184db3885d54050df243b6\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:24:5-89
 MERGED from [:androidx.lifecycle.lifecycle-extensions-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\889d10ccc76ef6506de1983ae90e6505\transformed\androidx.lifecycle.lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [:androidx.lifecycle.lifecycle-extensions-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\889d10ccc76ef6506de1983ae90e6505\transformed\androidx.lifecycle.lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [:com.google.android.gms.play-services-ads-identifier-18.0.1:] C:\Users\marat\.gradle\caches\transforms-3\da5b59efb37d2c0da69d2dc80e1ff597\transformed\com.google.android.gms.play-services-ads-identifier-18.0.1\AndroidManifest.xml:25:5-20
 MERGED from [:com.google.android.gms.play-services-ads-identifier-18.0.1:] C:\Users\marat\.gradle\caches\transforms-3\da5b59efb37d2c0da69d2dc80e1ff597\transformed\com.google.android.gms.play-services-ads-identifier-18.0.1\AndroidManifest.xml:25:5-20
-MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:4:3-8:17
-MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:4:3-8:17
+MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:4:3-8:17
+MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:4:3-8:17
 MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [:unityLibrary:IronSource.plugin] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-24:19
 MERGED from [:unityLibrary:IronSource.plugin] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-24:19
 	android:extractNativeLibs
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:18-50
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:18-50
 	android:appComponentFactory
 		ADDED from [:androidx.core.core-1.2.0:] C:\Users\marat\.gradle\caches\transforms-3\201eb74e81184db3885d54050df243b6\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
 	android:label
@@ -120,46 +126,50 @@ INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradl
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 MERGED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
 MERGED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
-MERGED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:18:3-72
-MERGED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:18:3-72
+MERGED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:18:3-72
+MERGED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:18:3-72
 MERGED from [:androidx.slidingpanelayout.slidingpanelayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\b50b0539995c0493db3e244c2b46883e\transformed\androidx.slidingpanelayout.slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.slidingpanelayout.slidingpanelayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\b50b0539995c0493db3e244c2b46883e\transformed\androidx.slidingpanelayout.slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.drawerlayout.drawerlayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ca2fbaeaa010157532796ae2e5b0863a\transformed\androidx.drawerlayout.drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.drawerlayout.drawerlayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ca2fbaeaa010157532796ae2e5b0863a\transformed\androidx.drawerlayout.drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.lifecycle.lifecycle-livedata-core-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\28ab0f39206edd12bb57e787174ed7c3\transformed\androidx.lifecycle.lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.lifecycle.lifecycle-livedata-core-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\28ab0f39206edd12bb57e787174ed7c3\transformed\androidx.lifecycle.lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:5:5-7:41
+MERGED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:5:5-7:41
 MERGED from [:androidx.viewpager.viewpager-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\52e6ecf2a6cc4dcc6215f49277b1a175\transformed\androidx.viewpager.viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.viewpager.viewpager-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\52e6ecf2a6cc4dcc6215f49277b1a175\transformed\androidx.viewpager.viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:18:3-42
-MERGED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:18:3-42
 MERGED from [:androidx.lifecycle.lifecycle-livedata-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\c074f2eb9bd2104b428bbe4baf2e7126\transformed\androidx.lifecycle.lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.lifecycle.lifecycle-livedata-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\c074f2eb9bd2104b428bbe4baf2e7126\transformed\androidx.lifecycle.lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.coordinatorlayout.coordinatorlayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\82ce123ccc2811252c2032bb09aed8a7\transformed\androidx.coordinatorlayout.coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.coordinatorlayout.coordinatorlayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\82ce123ccc2811252c2032bb09aed8a7\transformed\androidx.coordinatorlayout.coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:3:3-72
-MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:3:3-72
+MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:3:3-72
+MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:3:3-72
 MERGED from [:androidx.localbroadcastmanager.localbroadcastmanager-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\08cffaad110661a95c6f1f8e9d2905d8\transformed\androidx.localbroadcastmanager.localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.localbroadcastmanager.localbroadcastmanager-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\08cffaad110661a95c6f1f8e9d2905d8\transformed\androidx.localbroadcastmanager.localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:18:3-42
+MERGED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:18:3-42
 MERGED from [:androidx.lifecycle.lifecycle-viewmodel-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\2abb8773c6d00f77f1bef9482f53d2c5\transformed\androidx.lifecycle.lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.lifecycle.lifecycle-viewmodel-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\2abb8773c6d00f77f1bef9482f53d2c5\transformed\androidx.lifecycle.lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:3:3-72
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:3:3-72
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:3:3-72
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:3:3-72
 MERGED from [:androidx.customview.customview-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\cc88c5bb393326f9640e49cde21086e1\transformed\androidx.customview.customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.customview.customview-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\cc88c5bb393326f9640e49cde21086e1\transformed\androidx.customview.customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:3:3-112
-MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:3:3-112
+MERGED from [:common:] C:\Users\marat\.gradle\caches\transforms-3\79de28caf7dab24c9109c5f436013c4f\transformed\common\AndroidManifest.xml:7:5-43
+MERGED from [:common:] C:\Users\marat\.gradle\caches\transforms-3\79de28caf7dab24c9109c5f436013c4f\transformed\common\AndroidManifest.xml:7:5-43
+MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:3:3-112
+MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:3:3-112
 MERGED from [:androidx.documentfile.documentfile-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\4a9a823681c1b055e0a89bfe9ef4702b\transformed\androidx.documentfile.documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.documentfile.documentfile-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\4a9a823681c1b055e0a89bfe9ef4702b\transformed\androidx.documentfile.documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.lifecycle.lifecycle-runtime-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\d75a953e508497214b2b1e128207bfd5\transformed\androidx.lifecycle.lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.lifecycle.lifecycle-runtime-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\d75a953e508497214b2b1e128207bfd5\transformed\androidx.lifecycle.lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.loader.loader-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\5ad5b000b0a1195f11fc08b6f9479d5b\transformed\androidx.loader.loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.loader.loader-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\5ad5b000b0a1195f11fc08b6f9479d5b\transformed\androidx.loader.loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [:androidx.legacy.legacy-support-core-ui-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d0f02d9b471414e121c686f2467c3d0\transformed\androidx.legacy.legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.legacy.legacy-support-core-ui-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d0f02d9b471414e121c686f2467c3d0\transformed\androidx.legacy.legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:5:5-7:41
 MERGED from [:com.unity3d.mediation.mediation-logger-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\fa5e257942a25ff27794562cdcf4899b\transformed\com.unity3d.mediation.mediation-logger-1.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [:com.unity3d.mediation.mediation-logger-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\fa5e257942a25ff27794562cdcf4899b\transformed\com.unity3d.mediation.mediation-logger-1.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [:androidx.legacy.legacy-support-core-utils-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\1a1b31046a5b849bc9d97952fb73c469\transformed\androidx.legacy.legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
@@ -176,30 +186,30 @@ MERGED from [:androidx.cursoradapter.cursoradapter-1.0.0:] C:\Users\marat\.gradl
 MERGED from [:androidx.cursoradapter.cursoradapter-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\e9344c4b9ac30a31b49a43865097aea4\transformed\androidx.cursoradapter.cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:com.google.android.gms.play-services-ads-identifier-18.0.1:] C:\Users\marat\.gradle\caches\transforms-3\da5b59efb37d2c0da69d2dc80e1ff597\transformed\com.google.android.gms.play-services-ads-identifier-18.0.1\AndroidManifest.xml:20:5-44
 MERGED from [:com.google.android.gms.play-services-ads-identifier-18.0.1:] C:\Users\marat\.gradle\caches\transforms-3\da5b59efb37d2c0da69d2dc80e1ff597\transformed\com.google.android.gms.play-services-ads-identifier-18.0.1\AndroidManifest.xml:20:5-44
-MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:3:3-72
-MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:3:3-72
+MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:3:3-72
+MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:3:3-72
 MERGED from [:androidx.interpolator.interpolator-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\c156797fd539de38c34d80dc52651962\transformed\androidx.interpolator.interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.interpolator.interpolator-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\c156797fd539de38c34d80dc52651962\transformed\androidx.interpolator.interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:com.unity3d.mediation.mediation-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\12a816a1c55590404a0fc59db9bf9abe\transformed\com.unity3d.mediation.mediation-adapter-1.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [:com.unity3d.mediation.mediation-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\12a816a1c55590404a0fc59db9bf9abe\transformed\com.unity3d.mediation.mediation-adapter-1.1.0\AndroidManifest.xml:5:5-7:41
-MERGED from [:androidx.lifecycle.lifecycle-service-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [:androidx.lifecycle.lifecycle-service-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\a505e16fb99ec69e30000a4393e47f22\transformed\androidx.swiperefreshlayout.swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\a505e16fb99ec69e30000a4393e47f22\transformed\androidx.swiperefreshlayout.swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.arch.core.core-runtime-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7a4ff29921d2d9ab49365581ce606187\transformed\androidx.arch.core.core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.arch.core.core-runtime-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7a4ff29921d2d9ab49365581ce606187\transformed\androidx.arch.core.core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.lifecycle.lifecycle-service-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-service-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\71adcae7125dbc7ba6d4fcf063061896\transformed\androidx.asynclayoutinflater.asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\71adcae7125dbc7ba6d4fcf063061896\transformed\androidx.asynclayoutinflater.asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.print.print-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\f1edf6e89a4764e0cd47f509ec60abba\transformed\androidx.print.print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:androidx.print.print-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\f1edf6e89a4764e0cd47f509ec60abba\transformed\androidx.print.print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [:unityLibrary:IronSource.plugin] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:unityLibrary:IronSource.plugin] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:3:70-109
+		ADDED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:3:70-109
 	android:targetSdkVersion
 		INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
@@ -210,255 +220,277 @@ INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradl
 		INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
-MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:4:3-65
-MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:4:3-65
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:5:3-65
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:5:3-65
-MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:4:3-65
-MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:4:3-65
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:10:5-67
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:10:5-67
+MERGED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:10:5-67
+MERGED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:10:5-67
+MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:4:3-65
+MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:4:3-65
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:5:3-65
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:5:3-65
+MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:4:3-65
+MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:4:3-65
 MERGED from [:unityLibrary:IronSource.plugin] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
 MERGED from [:unityLibrary:IronSource.plugin] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-64
-uses-feature#0x00030000
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-54
-	android:glEsVersion
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:19-51
-uses-feature#android.hardware.vulkan.version
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-15:36
-	android:required
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-33
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-55
-uses-feature#android.hardware.touchscreen
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-18:36
-	android:required
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-33
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-52
-uses-feature#android.hardware.touchscreen.multitouch
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-21:36
-	android:required
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-63
-uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-24:36
-	android:required
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-33
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-72
-meta-data#unity.splash-mode
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-29:33
-	android:value
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-30
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-45
-meta-data#unity.splash-enable
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-32:36
-	android:value
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-33
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-47
-meta-data#unity.launch-fullscreen
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-35:36
-	android:value
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-33
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-51
-meta-data#unity.allow-resizable-window
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:9-38:37
-	android:value
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-34
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-56
-meta-data#notch.config
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:50
-	android:value
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-47
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-40
-activity#com.unity3d.player.UnityPlayerActivity
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-64:20
-	android:screenOrientation
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-49
-	android:launchMode
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-44
-	android:hardwareAccelerated
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-48
-	android:exported
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-36
-	android:resizeableActivity
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-47
-	android:configChanges
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-194
-	android:theme
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-54
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-66
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-56:29
-category#android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:17-77
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:27-74
-action#android.intent.action.MAIN
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:17-69
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:25-66
-meta-data#unityplayer.UnityActivity
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:13-60:40
-	android:value
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:17-37
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:17-57
-meta-data#notch_support
-ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-63:40
-	android:value
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:17-37
-	android:name
-		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:17-45
-provider#androidx.startup.InitializationProvider
-ADDED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:5-187
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:8:5-10:16
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:8:5-10:16
-MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:6:5-8:16
-MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:6:5-8:16
-MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:5:5-7:16
-MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:5:5-7:16
-	tools:node
-		ADDED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:166-184
-	android:authorities
-		ADDED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:70-140
-	android:exported
-		ADDED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:141-165
-	android:name
-		ADDED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:15-69
-provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:5-209
-	android:authorities
-		ADDED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:82-153
-	android:multiprocess
-		ADDED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:179-206
-	android:exported
-		ADDED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:154-178
-	android:name
-		ADDED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:15-81
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:5:3-77
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:4:3-77
-MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:4:3-77
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:9:5-79
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:9:5-79
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:9:5-79
+MERGED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:9:5-79
+MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:5:3-77
+MERGED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:5:3-77
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:4:3-77
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:4:3-77
 MERGED from [:unityLibrary:IronSource.plugin] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
 MERGED from [:unityLibrary:IronSource.plugin] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:5:20-74
-activity#com.ironsource.sdk.controller.ControllerActivity
-ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:5-163
-	android:hardwareAccelerated
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:126-160
-	android:configChanges
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:79-125
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+uses-feature#0x00030000
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-33
 	android:name
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:15-78
-activity#com.ironsource.sdk.controller.InterstitialActivity
-ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:5-214
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-55
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-72
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:33
+	android:value
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-33:36
+	android:value
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-33
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-47
+meta-data#unity.launch-fullscreen
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-36:36
+	android:value
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-33
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-51
+meta-data#unity.allow-resizable-window
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-39:37
+	android:value
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-34
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-56
+meta-data#notch.config
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-42:50
+	android:value
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-47
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-40
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-65:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-49
+	android:launchMode
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-44
 	android:hardwareAccelerated
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:128-162
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-48
+	android:exported
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-36
+	android:resizeableActivity
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-47
 	android:configChanges
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:81-127
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-194
 	android:theme
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:163-211
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-54
 	android:name
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:15-80
-activity#com.ironsource.sdk.controller.OpenUrlActivity
-ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:5-209
-	android:hardwareAccelerated
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:123-157
-	android:configChanges
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:76-122
-	android:theme
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:158-206
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-57:29
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:15-75
-provider#com.ironsource.lifecycle.IronsourceLifecycleProvider
-ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:5-167
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:27-74
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:25-66
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:13-61:40
+	android:value
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:17-57
+meta-data#notch_support
+ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-64:40
+	android:value
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:17-45
+provider#androidx.startup.InitializationProvider
+ADDED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:5-179
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:8:5-10:16
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:8:5-10:16
+MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:6:5-8:16
+MERGED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:6:5-8:16
+MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:5:5-7:16
+MERGED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:5:5-7:16
+	tools:node
+		ADDED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:158-176
 	android:authorities
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:83-164
+		ADDED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:70-132
+	android:exported
+		ADDED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:133-157
 	android:name
-		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:15-82
+		ADDED from [:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:15-69
 uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:6:3-77
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:11:5-79
-MERGED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:11:5-79
+ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:11:5-79
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:6:3-77
+MERGED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:6:3-77
 MERGED from [:com.google.android.gms.play-services-ads-identifier-18.0.1:] C:\Users\marat\.gradle\caches\transforms-3\da5b59efb37d2c0da69d2dc80e1ff597\transformed\com.google.android.gms.play-services-ads-identifier-18.0.1\AndroidManifest.xml:23:5-79
 MERGED from [:com.google.android.gms.play-services-ads-identifier-18.0.1:] C:\Users\marat\.gradle\caches\transforms-3\da5b59efb37d2c0da69d2dc80e1ff597\transformed\com.google.android.gms.play-services-ads-identifier-18.0.1\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:6:20-74
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:11:22-76
+activity#com.unity3d.services.ads.adunit.AdUnitActivity
+ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:14:9-18:74
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:17:13-47
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:16:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:18:13-71
+	android:name
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:15:13-74
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentActivity
+ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:19:9-23:86
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:22:13-47
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:21:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:23:13-83
+	android:name
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:20:13-85
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity
+ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:24:9-28:86
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:27:13-48
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:26:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:28:13-83
+	android:name
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:25:13-93
+activity#com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
+ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:29:9-33:74
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:32:13-48
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:31:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:33:13-71
+	android:name
+		ADDED from [:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:30:13-82
+activity#com.ironsource.sdk.controller.ControllerActivity
+ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:5-163
+	android:hardwareAccelerated
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:126-160
+	android:configChanges
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:79-125
+	android:name
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:15-78
+activity#com.ironsource.sdk.controller.InterstitialActivity
+ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:5-214
+	android:hardwareAccelerated
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:128-162
+	android:configChanges
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:81-127
+	android:theme
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:163-211
+	android:name
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:15-80
+activity#com.ironsource.sdk.controller.OpenUrlActivity
+ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:5-209
+	android:hardwareAccelerated
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:123-157
+	android:configChanges
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:76-122
+	android:theme
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:158-206
+	android:name
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:15-75
+provider#com.ironsource.lifecycle.IronsourceLifecycleProvider
+ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:5-159
+	android:authorities
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:83-156
+	android:name
+		ADDED from [:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:15-82
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:5-201
+	android:authorities
+		ADDED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:82-145
+	android:multiprocess
+		ADDED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:171-198
+	android:exported
+		ADDED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:146-170
+	android:name
+		ADDED from [:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:15-81
 meta-data#com.unity3d.mediation.UnityMediationSDKModuleInitializer
-ADDED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:7-125
+ADDED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:7-125
 	android:value
-		ADDED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:90-122
+		ADDED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:90-122
 	android:name
-		ADDED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:18-89
+		ADDED from [:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:18-89
 meta-data#com.unity3d.mediation.unityadsadapter.UnityAdsModuleInitializer
-ADDED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:7-132
+ADDED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:7-132
 	android:value
-		ADDED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:97-129
+		ADDED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:97-129
 	android:name
-		ADDED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:18-96
+		ADDED from [:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:18-96
+uses-permission#com.android.vending.BILLING
+ADDED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:10:22-64
+meta-data#com.google.android.play.billingclient.version
+ADDED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:17:9-21:75
+	android:exported
+		ADDED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:20:13-37
+	android:configChanges
+		ADDED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:18:13-78
 meta-data#com.google.android.gms.version
 ADDED from [:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 	android:value
 		ADDED from [:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-activity#com.unity3d.services.ads.adunit.AdUnitActivity
-ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:14:9-18:74
-	android:hardwareAccelerated
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:17:13-47
-	android:configChanges
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:16:13-170
-	android:theme
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:18:13-71
-	android:name
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:15:13-74
-activity#com.unity3d.services.ads.adunit.AdUnitTransparentActivity
-ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:19:9-23:86
-	android:hardwareAccelerated
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:22:13-47
-	android:configChanges
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:21:13-170
-	android:theme
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:23:13-83
-	android:name
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:20:13-85
-activity#com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity
-ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:24:9-28:86
-	android:hardwareAccelerated
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:27:13-48
-	android:configChanges
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:26:13-170
-	android:theme
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:28:13-83
-	android:name
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:25:13-93
-activity#com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
-ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:29:9-33:74
-	android:hardwareAccelerated
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:32:13-48
-	android:configChanges
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:31:13-170
-	android:theme
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:33:13-71
-	android:name
-		ADDED from [:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:30:13-82
 meta-data#com.unity3d.services.identifiers.UnitySharedLibraryInitializer
-ADDED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:7-131
+ADDED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:7-131
 	android:value
-		ADDED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:96-128
+		ADDED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:96-128
 	android:name
-		ADDED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:18-95
+		ADDED from [:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:18-95

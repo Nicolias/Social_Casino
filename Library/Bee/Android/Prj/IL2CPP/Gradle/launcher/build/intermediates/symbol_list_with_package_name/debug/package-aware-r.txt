@@ -1,4 +1,4 @@
-com.DefaultCompany.Socialcasino
+com.wildfruits.compaslo
 attr ad_unit_id
 attr alpha
 attr banner_ad_view_size

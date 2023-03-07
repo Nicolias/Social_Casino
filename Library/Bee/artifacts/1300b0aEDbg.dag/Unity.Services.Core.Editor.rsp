@@ -133,6 +133,9 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"Assets/AppsFlyer/Tests/Castle.Core.dll"
+-r:"Assets/AppsFlyer/Tests/NSubstitute.dll"
+-r:"Assets/AppsFlyer/Tests/System.Runtime.CompilerServices.Unsafe.dll"
 -r:"Assets/ExternalDependencyManager/Editor/1.2.175/Google.JarResolver.dll"
 -r:"Assets/ExternalDependencyManager/Editor/1.2.175/Google.PackageManagerResolver.dll"
 -r:"Assets/ExternalDependencyManager/Editor/1.2.175/Google.VersionHandlerImpl.dll"
@@ -237,6 +240,7 @@
 -r:"D:/Unity/2021.3.1f1/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
 -r:"D:/Unity/2021.3.1f1/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"D:/Unity/2021.3.1f1/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"D:/Unity/2021.3.1f1/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"D:/Unity/2021.3.1f1/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"D:/Unity/2021.3.1f1/Editor/2022.2.1f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"D:/Unity/2021.3.1f1/Editor/2022.2.1f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"

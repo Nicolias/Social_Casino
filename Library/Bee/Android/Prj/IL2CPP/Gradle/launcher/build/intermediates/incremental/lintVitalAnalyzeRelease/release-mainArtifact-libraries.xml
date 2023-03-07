@@ -1,7 +1,7 @@
 <libraries>
   <library
       name="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
-      jars="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\classes.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\androidx.annotation.annotation-1.2.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\androidx.arch.core.core-common-2.0.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\androidx.collection.collection-1.0.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\androidx.lifecycle.lifecycle-common-2.0.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\com.google.protobuf.protobuf-javalite-3.19.3.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\com.squareup.okhttp3.okhttp-4.6.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\com.squareup.okio.okio-2.6.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.annotations-13.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.kotlin.kotlin-stdlib-1.5.21.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.kotlin.kotlin-stdlib-common-1.5.21.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.kotlinx.kotlinx-coroutines-android-1.4.3.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.4.3.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\unity-classes.jar"
+      jars="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\classes.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\androidx.annotation.annotation-1.2.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\androidx.arch.core.core-common-2.0.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\androidx.collection.collection-1.0.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\androidx.lifecycle.lifecycle-common-2.0.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\com.google.protobuf.protobuf-javalite-3.19.3.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\com.squareup.okhttp3.okhttp-4.6.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\com.squareup.okio.okio-2.6.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.annotations-13.0.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.kotlin.kotlin-stdlib-1.6.20.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.kotlin.kotlin-stdlib-common-1.6.20.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.kotlin.kotlin-stdlib-jdk7-1.6.20.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.kotlin.kotlin-stdlib-jdk8-1.6.20.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.kotlinx.kotlinx-coroutines-android-1.4.3.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.4.3.jar;D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out\jars\libs\unity-classes.jar"
       resolved="Gradle:unityLibrary:unspecified"
       folder="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\97447f195e2aa293f666b9e6f85ce205\transformed\out"
       manifest="AndroidManifest.xml"
@@ -45,13 +45,21 @@
       jars="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.annotations-13.0.jar"
       resolved="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.annotations-13.0.jar:unspecified"/>
   <library
-      name="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-1.5.21.jar:unspecified@jar"
-      jars="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-1.5.21.jar"
-      resolved="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-1.5.21.jar:unspecified"/>
+      name="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-1.6.20.jar:unspecified@jar"
+      jars="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-1.6.20.jar"
+      resolved="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-1.6.20.jar:unspecified"/>
   <library
-      name="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-common-1.5.21.jar:unspecified@jar"
-      jars="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-common-1.5.21.jar"
-      resolved="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-common-1.5.21.jar:unspecified"/>
+      name="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-common-1.6.20.jar:unspecified@jar"
+      jars="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-common-1.6.20.jar"
+      resolved="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-common-1.6.20.jar:unspecified"/>
+  <library
+      name="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-jdk7-1.6.20.jar:unspecified@jar"
+      jars="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-jdk7-1.6.20.jar"
+      resolved="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-jdk7-1.6.20.jar:unspecified"/>
+  <library
+      name="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-jdk8-1.6.20.jar:unspecified@jar"
+      jars="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-jdk8-1.6.20.jar"
+      resolved="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlin.kotlin-stdlib-jdk8-1.6.20.jar:unspecified"/>
   <library
       name="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlinx.kotlinx-coroutines-android-1.4.3.jar:unspecified@jar"
       jars="D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\org.jetbrains.kotlinx.kotlinx-coroutines-android-1.4.3.jar"
@@ -66,9 +74,22 @@
       resolved="__local_aars__:D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
   <library
       name=":androidx.startup.startup-runtime-1.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\c74892e8528af3c3caa988a06af7c808\transformed\androidx.startup.startup-runtime-1.0.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\555860a5be7fd9ab91688954bb98fc49\transformed\androidx.startup.startup-runtime-1.0.0\jars\classes.jar"
       resolved=":androidx.startup.startup-runtime-1.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\c74892e8528af3c3caa988a06af7c808\transformed\androidx.startup.startup-runtime-1.0.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\555860a5be7fd9ab91688954bb98fc49\transformed\androidx.startup.startup-runtime-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":com.appsflyer.unity-wrapper-6.9.4:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\654f644cfe6160fb6c25b7512a94e1f7\transformed\com.appsflyer.unity-wrapper-6.9.4\jars\classes.jar"
+      resolved=":com.appsflyer.unity-wrapper-6.9.4:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\654f644cfe6160fb6c25b7512a94e1f7\transformed\com.appsflyer.unity-wrapper-6.9.4"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -170,9 +191,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.ironsource.sdk.mediationsdk-7.2.6:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\304b83d16da43dad8f000c4ebc997020\transformed\com.ironsource.sdk.mediationsdk-7.2.6\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\8f1bfa97023d5e85abb102f0c0c0f1b0\transformed\com.ironsource.sdk.mediationsdk-7.2.6\jars\classes.jar"
       resolved=":com.ironsource.sdk.mediationsdk-7.2.6:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\304b83d16da43dad8f000c4ebc997020\transformed\com.ironsource.sdk.mediationsdk-7.2.6"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\8f1bfa97023d5e85abb102f0c0c0f1b0\transformed\com.ironsource.sdk.mediationsdk-7.2.6"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -196,9 +217,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":androidx.lifecycle.lifecycle-process-2.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\b29d84e696aef34c305bb4b5144bd240\transformed\androidx.lifecycle.lifecycle-process-2.0.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\fb2c20cc29e614a1a4dd393ad0c237db\transformed\androidx.lifecycle.lifecycle-process-2.0.0\jars\classes.jar"
       resolved=":androidx.lifecycle.lifecycle-process-2.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\b29d84e696aef34c305bb4b5144bd240\transformed\androidx.lifecycle.lifecycle-process-2.0.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\fb2c20cc29e614a1a4dd393ad0c237db\transformed\androidx.lifecycle.lifecycle-process-2.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -222,9 +243,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.unity3d.mediation.mediation-sdk-1.1.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\155615f1f35b09b7436503d66d15e5b0\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\8e37838da597c9b68256584a69de57ce\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\jars\classes.jar"
       resolved=":com.unity3d.mediation.mediation-sdk-1.1.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\155615f1f35b09b7436503d66d15e5b0\transformed\com.unity3d.mediation.mediation-sdk-1.1.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\8e37838da597c9b68256584a69de57ce\transformed\com.unity3d.mediation.mediation-sdk-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -247,10 +268,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name=":common:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\79de28caf7dab24c9109c5f436013c4f\transformed\common\jars\classes.jar"
+      resolved=":common:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\79de28caf7dab24c9109c5f436013c4f\transformed\common"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name=":com.unity3d.mediation.unityads-adapter-1.1.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\a08da4a36d4a150d5bbf08618bd66863\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\197dd62270bbc142e42831ab10409ec2\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\jars\classes.jar"
       resolved=":com.unity3d.mediation.unityads-adapter-1.1.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\a08da4a36d4a150d5bbf08618bd66863\transformed\com.unity3d.mediation.unityads-adapter-1.1.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\197dd62270bbc142e42831ab10409ec2\transformed\com.unity3d.mediation.unityads-adapter-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -299,6 +333,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name=":billing-4.0.0:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\jars\classes.jar"
+      resolved=":billing-4.0.0:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name=":androidx.legacy.legacy-support-core-ui-1.0.0:@aar"
       jars="C:\Users\marat\.gradle\caches\transforms-3\7d0f02d9b471414e121c686f2467c3d0\transformed\androidx.legacy.legacy-support-core-ui-1.0.0\jars\classes.jar"
       resolved=":androidx.legacy.legacy-support-core-ui-1.0.0:"
@@ -329,6 +376,19 @@
       jars="C:\Users\marat\.gradle\caches\transforms-3\fa5e257942a25ff27794562cdcf4899b\transformed\com.unity3d.mediation.mediation-logger-1.1.0\jars\classes.jar"
       resolved=":com.unity3d.mediation.mediation-logger-1.1.0:"
       folder="C:\Users\marat\.gradle\caches\transforms-3\fa5e257942a25ff27794562cdcf4899b\transformed\com.unity3d.mediation.mediation-logger-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":com.appsflyer.af-android-sdk-6.9.4:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\a6f3c3cd16f44f170f2ba843adbb7474\transformed\com.appsflyer.af-android-sdk-6.9.4\jars\classes.jar"
+      resolved=":com.appsflyer.af-android-sdk-6.9.4:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\a6f3c3cd16f44f170f2ba843adbb7474\transformed\com.appsflyer.af-android-sdk-6.9.4"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -430,9 +490,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\d99560537b748512a0f90340a16bde1a\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\jars\classes.jar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\348f568d60e66e9129b8b1737b2ee148\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\jars\classes.jar"
       resolved=":com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\d99560537b748512a0f90340a16bde1a\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\348f568d60e66e9129b8b1737b2ee148\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -481,19 +541,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name=":androidx.lifecycle.lifecycle-service-2.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0\jars\classes.jar"
-      resolved=":androidx.lifecycle.lifecycle-service-2.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name=":androidx.arch.core.core-runtime-2.0.0:@aar"
       jars="C:\Users\marat\.gradle\caches\transforms-3\7a4ff29921d2d9ab49365581ce606187\transformed\androidx.arch.core.core-runtime-2.0.0\jars\classes.jar"
       resolved=":androidx.arch.core.core-runtime-2.0.0:"
@@ -507,10 +554,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name=":androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\71adcae7125dbc7ba6d4fcf063061896\transformed\androidx.asynclayoutinflater.asynclayoutinflater-1.0.0\jars\classes.jar"
-      resolved=":androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\71adcae7125dbc7ba6d4fcf063061896\transformed\androidx.asynclayoutinflater.asynclayoutinflater-1.0.0"
+      name=":androidx.lifecycle.lifecycle-service-2.0.0:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0\jars\classes.jar"
+      resolved=":androidx.lifecycle.lifecycle-service-2.0.0:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\3c2e5d3342fa4da2c1860dc88a13bc23\transformed\androidx.lifecycle.lifecycle-service-2.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":androidx.versionedparcelable.versionedparcelable-1.1.0:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\jars\classes.jar"
+      resolved=":androidx.versionedparcelable.versionedparcelable-1.1.0:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -533,10 +593,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name=":androidx.versionedparcelable.versionedparcelable-1.1.0:@aar"
-      jars="C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\jars\classes.jar"
-      resolved=":androidx.versionedparcelable.versionedparcelable-1.1.0:"
-      folder="C:\Users\marat\.gradle\caches\transforms-3\85d646ce09c4f2c5c534da8703214ab9\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0"
+      name=":androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\71adcae7125dbc7ba6d4fcf063061896\transformed\androidx.asynclayoutinflater.asynclayoutinflater-1.0.0\jars\classes.jar"
+      resolved=":androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\71adcae7125dbc7ba6d4fcf063061896\transformed\androidx.asynclayoutinflater.asynclayoutinflater-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":com.android.installreferrer.installreferrer-2.1:@aar"
+      jars="C:\Users\marat\.gradle\caches\transforms-3\f9da85b7f42b51e1362ed40a5d9c919e\transformed\com.android.installreferrer.installreferrer-2.1\jars\classes.jar"
+      resolved=":com.android.installreferrer.installreferrer-2.1:"
+      folder="C:\Users\marat\.gradle\caches\transforms-3\f9da85b7f42b51e1362ed40a5d9c919e\transformed\com.android.installreferrer.installreferrer-2.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

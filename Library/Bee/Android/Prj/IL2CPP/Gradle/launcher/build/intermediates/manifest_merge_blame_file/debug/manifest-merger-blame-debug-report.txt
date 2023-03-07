@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.DefaultCompany.Socialcasino"
+3    package="com.wildfruits.compaslo"
 4    android:installLocation="preferExternal"
 5    android:versionCode="1"
 6    android:versionName="1.0" >
@@ -27,248 +27,268 @@
 19    <uses-permission android:name="android.permission.INTERNET" />
 19-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
 19-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-64
-20
-21    <uses-feature android:glEsVersion="0x00030000" />
-21-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-54
-21-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:19-51
-22    <uses-feature
-22-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-15:36
-23        android:name="android.hardware.vulkan.version"
-23-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-55
-24        android:required="false" />
-24-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-33
-25    <uses-feature
-25-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-18:36
-26        android:name="android.hardware.touchscreen"
-26-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-52
-27        android:required="false" />
-27-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-33
-28    <uses-feature
-28-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-21:36
-29        android:name="android.hardware.touchscreen.multitouch"
-29-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-63
-30        android:required="false" />
-30-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33
-31    <uses-feature
-31-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-24:36
-32        android:name="android.hardware.touchscreen.multitouch.distinct"
-32-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-72
-33        android:required="false" />
-33-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-33
-34
-35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-35-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:5:3-77
-35-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:5:20-74
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+20-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+21
+22    <uses-feature android:glEsVersion="0x00030000" />
+22-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-54
+22-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:19-51
+23    <uses-feature
+23-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.vulkan.version"
+24-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-55
+25        android:required="false" />
+25-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-33
+26    <uses-feature
+26-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-19:36
+27        android:name="android.hardware.touchscreen"
+27-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-52
+28        android:required="false" />
+28-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-33
+29    <uses-feature
+29-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-22:36
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-63
+31        android:required="false" />
+31-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-33
+32    <uses-feature
+32-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:5-25:36
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-72
+34        android:required="false" />
+34-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-33
+35
 36    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-36-->[:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:6:3-77
-36-->[:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:6:20-74
-37
-38    <application
-38-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
-39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-39-->[:androidx.core.core-1.2.0:] C:\Users\marat\.gradle\caches\transforms-3\201eb74e81184db3885d54050df243b6\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
-40        android:debuggable="true"
-41        android:extractNativeLibs="true"
-41-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:18-50
-42        android:icon="@mipmap/app_icon"
-42-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
-43        android:label="@string/app_name" >
-43-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
-44        <meta-data
-44-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-29:33
-45            android:name="unity.splash-mode"
-45-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-45
-46            android:value="0" />
-46-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-30
-47        <meta-data
-47-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-32:36
-48            android:name="unity.splash-enable"
-48-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-47
-49            android:value="True" />
-49-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-33
-50        <meta-data
-50-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-35:36
-51            android:name="unity.launch-fullscreen"
-51-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-51
-52            android:value="True" />
-52-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-33
-53        <meta-data
-53-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:9-38:37
-54            android:name="unity.allow-resizable-window"
-54-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-56
-55            android:value="False" />
-55-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-34
-56        <meta-data
-56-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:50
-57            android:name="notch.config"
-57-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-40
-58            android:value="portrait|landscape" />
-58-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-47
-59
-60        <activity
-60-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-64:20
-61            android:name="com.unity3d.player.UnityPlayerActivity"
-61-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-66
-62            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-62-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-194
-63            android:exported="true"
-63-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-36
-64            android:hardwareAccelerated="false"
-64-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-48
-65            android:launchMode="singleTask"
-65-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-44
-66            android:resizeableActivity="false"
-66-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-47
-67            android:screenOrientation="fullUser"
-67-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-49
-68            android:theme="@style/UnityThemeSelector" >
-68-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-54
-69            <intent-filter>
-69-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-56:29
-70                <category android:name="android.intent.category.LAUNCHER" />
-70-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:17-77
-70-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:27-74
-71
-72                <action android:name="android.intent.action.MAIN" />
-72-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:17-69
-72-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:25-66
-73            </intent-filter>
-74
-75            <meta-data
-75-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:13-60:40
-76                android:name="unityplayer.UnityActivity"
-76-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:17-57
-77                android:value="true" />
-77-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:17-37
-78            <meta-data
-78-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-63:40
-79                android:name="notch_support"
-79-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:17-45
-80                android:value="true" />
-80-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:17-37
-81        </activity>
-82
-83        <provider
-83-->[:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:5-187
-84            android:name="androidx.startup.InitializationProvider"
-84-->[:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:15-69
-85            android:authorities="com.DefaultCompany.Socialcasino.androidx-startup"
-85-->[:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:70-140
-86            android:exported="false" >
-86-->[:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\7d2c4ce253a0afb20625d7697c9f2d84\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:141-165
-87            <meta-data
-87-->[:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:7-125
-88                android:name="com.unity3d.mediation.UnityMediationSDKModuleInitializer"
-88-->[:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:18-89
-89                android:value="androidx.startup" />
-89-->[:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\5ae9379c347ead7d47197603b76042d8\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:90-122
-90            <meta-data
-90-->[:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:7-132
-91                android:name="com.unity3d.mediation.unityadsadapter.UnityAdsModuleInitializer"
-91-->[:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:18-96
-92                android:value="androidx.startup" />
-92-->[:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\c5c4623e64e240a37ce06f3a84f743db\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:97-129
-93            <meta-data
-93-->[:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:7-131
-94                android:name="com.unity3d.services.identifiers.UnitySharedLibraryInitializer"
-94-->[:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:18-95
-95                android:value="androidx.startup" />
-95-->[:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\214ebb5db93ea6e02de3bd20a5df8118\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:96-128
-96        </provider>
-97        <provider
-97-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:5-209
-98            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-98-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:15-81
-99            android:authorities="com.DefaultCompany.Socialcasino.lifecycle-process"
-99-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:82-153
-100            android:exported="false"
-100-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:154-178
-101            android:multiprocess="true" />
-101-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\79b5010538d71293baac8c242d4f2b4f\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:179-206
-102
-103        <activity
-103-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:5-163
-104            android:name="com.ironsource.sdk.controller.ControllerActivity"
-104-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:15-78
-105            android:configChanges="orientation|screenSize"
-105-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:79-125
-106            android:hardwareAccelerated="true" />
-106-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:126-160
-107        <activity
-107-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:5-214
-108            android:name="com.ironsource.sdk.controller.InterstitialActivity"
-108-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:15-80
-109            android:configChanges="orientation|screenSize"
-109-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:81-127
-110            android:hardwareAccelerated="true"
-110-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:128-162
-111            android:theme="@android:style/Theme.Translucent" />
-111-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:163-211
-112        <activity
-112-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:5-209
-113            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
-113-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:15-75
-114            android:configChanges="orientation|screenSize"
-114-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:76-122
-115            android:hardwareAccelerated="true"
-115-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:123-157
-116            android:theme="@android:style/Theme.Translucent" />
-116-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:158-206
-117
-118        <provider
-118-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:5-167
-119            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider"
-119-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:15-82
-120            android:authorities="com.DefaultCompany.Socialcasino.IronsourceLifecycleProvider" />
-120-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\9c65b64edf3eaa00d74eb62794bcf1cf\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:83-164
-121
-122        <meta-data
-122-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-123            android:name="com.google.android.gms.version"
-123-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-124            android:value="@integer/google_play_services_version" />
-124-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-125
-126        <activity
-126-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:14:9-18:74
-127            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
-127-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:15:13-74
-128            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-128-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:16:13-170
-129            android:hardwareAccelerated="true"
-129-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:17:13-47
-130            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-130-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:18:13-71
-131        <activity
-131-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:19:9-23:86
-132            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
-132-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:20:13-85
-133            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-133-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:21:13-170
-134            android:hardwareAccelerated="true"
-134-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:22:13-47
-135            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-135-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:23:13-83
-136        <activity
-136-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:24:9-28:86
-137            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
-137-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:25:13-93
-138            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-138-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:26:13-170
-139            android:hardwareAccelerated="false"
-139-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:27:13-48
-140            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-140-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:28:13-83
-141        <activity
-141-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:29:9-33:74
-142            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
-142-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:30:13-82
-143            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-143-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:31:13-170
-144            android:hardwareAccelerated="false"
-144-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:32:13-48
-145            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-145-->[:com.unity3d.ads.unity-ads-4.5.0:] C:\Users\marat\.gradle\caches\transforms-3\26fcb3611873e5f7dac65443135bc90b\transformed\com.unity3d.ads.unity-ads-4.5.0\AndroidManifest.xml:33:13-71
-146    </application>
-147
-148</manifest>
+36-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:11:5-79
+36-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:11:22-76
+37    <uses-permission android:name="com.android.vending.BILLING" />
+37-->[:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:10:5-67
+37-->[:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:10:22-64
+38
+39    <application
+39-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[:androidx.core.core-1.2.0:] C:\Users\marat\.gradle\caches\transforms-3\201eb74e81184db3885d54050df243b6\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="true"
+42-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:18-50
+43        android:icon="@mipmap/app_icon"
+43-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+44        android:label="@string/app_name" >
+44-->D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+45        <meta-data
+45-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:33
+46            android:name="unity.splash-mode"
+46-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-45
+47            android:value="0" />
+47-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-30
+48        <meta-data
+48-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-33:36
+49            android:name="unity.splash-enable"
+49-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-47
+50            android:value="True" />
+50-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-33
+51        <meta-data
+51-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-36:36
+52            android:name="unity.launch-fullscreen"
+52-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-51
+53            android:value="True" />
+53-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-33
+54        <meta-data
+54-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-39:37
+55            android:name="unity.allow-resizable-window"
+55-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-56
+56            android:value="False" />
+56-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-34
+57        <meta-data
+57-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-42:50
+58            android:name="notch.config"
+58-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-40
+59            android:value="portrait|landscape" />
+59-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-47
+60
+61        <activity
+61-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-65:20
+62            android:name="com.unity3d.player.UnityPlayerActivity"
+62-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-66
+63            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+63-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-194
+64            android:exported="true"
+64-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-36
+65            android:hardwareAccelerated="false"
+65-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-48
+66            android:launchMode="singleTask"
+66-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-44
+67            android:resizeableActivity="false"
+67-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-47
+68            android:screenOrientation="fullUser"
+68-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-49
+69            android:theme="@style/UnityThemeSelector" >
+69-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-54
+70            <intent-filter>
+70-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-57:29
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:17-77
+71-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:27-74
+72
+73                <action android:name="android.intent.action.MAIN" />
+73-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:17-69
+73-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:25-66
+74            </intent-filter>
+75
+76            <meta-data
+76-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:13-61:40
+77                android:name="unityplayer.UnityActivity"
+77-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:17-57
+78                android:value="true" />
+78-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:17-37
+79            <meta-data
+79-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-64:40
+80                android:name="notch_support"
+80-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:17-45
+81                android:value="true" />
+81-->[:unityLibrary] D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:17-37
+82        </activity>
+83
+84        <provider
+84-->[:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:5-179
+85            android:name="androidx.startup.InitializationProvider"
+85-->[:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:15-69
+86            android:authorities="com.wildfruits.compaslo.androidx-startup"
+86-->[:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:70-132
+87            android:exported="false" >
+87-->[:androidx.startup.startup-runtime-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\73350fd01501c3aae367836f26c52354\transformed\androidx.startup.startup-runtime-1.0.0\AndroidManifest.xml:20:133-157
+88            <meta-data
+88-->[:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:7-125
+89                android:name="com.unity3d.mediation.UnityMediationSDKModuleInitializer"
+89-->[:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:18-89
+90                android:value="androidx.startup" />
+90-->[:com.unity3d.mediation.mediation-sdk-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\db31d27ab173c07dda75073a0d9d32bd\transformed\com.unity3d.mediation.mediation-sdk-1.1.0\AndroidManifest.xml:9:90-122
+91            <meta-data
+91-->[:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:7-132
+92                android:name="com.unity3d.mediation.unityadsadapter.UnityAdsModuleInitializer"
+92-->[:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:18-96
+93                android:value="androidx.startup" />
+93-->[:com.unity3d.mediation.unityads-adapter-1.1.0:] C:\Users\marat\.gradle\caches\transforms-3\7a49b4759a77a4c68cc0d646d4010eef\transformed\com.unity3d.mediation.unityads-adapter-1.1.0\AndroidManifest.xml:7:97-129
+94            <meta-data
+94-->[:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:7-131
+95                android:name="com.unity3d.services.identifiers.UnitySharedLibraryInitializer"
+95-->[:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:18-95
+96                android:value="androidx.startup" />
+96-->[:com.unity3d.services.identifiers.unity-services-identifiers-1.0.0:] C:\Users\marat\.gradle\caches\transforms-3\ec4799270bfacc669c353054189c3aa0\transformed\com.unity3d.services.identifiers.unity-services-identifiers-1.0.0\AndroidManifest.xml:6:96-128
+97        </provider>
+98
+99        <activity
+99-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:14:9-18:74
+100            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+100-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:15:13-74
+101            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+101-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:16:13-170
+102            android:hardwareAccelerated="true"
+102-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:17:13-47
+103            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+103-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:18:13-71
+104        <activity
+104-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:19:9-23:86
+105            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+105-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:20:13-85
+106            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+106-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:21:13-170
+107            android:hardwareAccelerated="true"
+107-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:22:13-47
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+108-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:23:13-83
+109        <activity
+109-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:24:9-28:86
+110            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+110-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:25:13-93
+111            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+111-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:26:13-170
+112            android:hardwareAccelerated="false"
+112-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:27:13-48
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+113-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:28:13-83
+114        <activity
+114-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:29:9-33:74
+115            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+115-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:30:13-82
+116            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+116-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:31:13-170
+117            android:hardwareAccelerated="false"
+117-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:32:13-48
+118            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+118-->[:UnityAds:] C:\Users\marat\.gradle\caches\transforms-3\cc04859fe26cab24f16a74f549b1b0d2\transformed\UnityAds\AndroidManifest.xml:33:13-71
+119        <activity
+119-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:5-163
+120            android:name="com.ironsource.sdk.controller.ControllerActivity"
+120-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:15-78
+121            android:configChanges="orientation|screenSize"
+121-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:79-125
+122            android:hardwareAccelerated="true" />
+122-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:7:126-160
+123        <activity
+123-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:5-214
+124            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+124-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:15-80
+125            android:configChanges="orientation|screenSize"
+125-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:81-127
+126            android:hardwareAccelerated="true"
+126-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:128-162
+127            android:theme="@android:style/Theme.Translucent" />
+127-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:8:163-211
+128        <activity
+128-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:5-209
+129            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+129-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:15-75
+130            android:configChanges="orientation|screenSize"
+130-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:76-122
+131            android:hardwareAccelerated="true"
+131-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:123-157
+132            android:theme="@android:style/Theme.Translucent" />
+132-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:9:158-206
+133
+134        <provider
+134-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:5-159
+135            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider"
+135-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:15-82
+136            android:authorities="com.wildfruits.compaslo.IronsourceLifecycleProvider" />
+136-->[:com.ironsource.sdk.mediationsdk-7.2.6:] C:\Users\marat\.gradle\caches\transforms-3\96c8971a5351f013ed0e3d17f36a5d1a\transformed\com.ironsource.sdk.mediationsdk-7.2.6\AndroidManifest.xml:10:83-156
+137        <provider
+137-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:5-201
+138            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+138-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:15-81
+139            android:authorities="com.wildfruits.compaslo.lifecycle-process"
+139-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:82-145
+140            android:exported="false"
+140-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:146-170
+141            android:multiprocess="true" />
+141-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\marat\.gradle\caches\transforms-3\3bdd3a0e2230e354e77a2055c461c944\transformed\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:171-198
+142
+143        <meta-data
+143-->[:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:13:9-15:37
+144            android:name="com.google.android.play.billingclient.version"
+144-->[:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:14:13-73
+145            android:value="4.0.0" />
+145-->[:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:15:13-34
+146
+147        <activity
+147-->[:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:17:9-21:75
+148            android:name="com.android.billingclient.api.ProxyBillingActivity"
+148-->[:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:18:13-78
+149            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+149-->[:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:19:13-96
+150            android:exported="false"
+150-->[:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:20:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[:billing-4.0.0:] C:\Users\marat\.gradle\caches\transforms-3\8ec0c0aee557b2176870bc36c7222160\transformed\billing-4.0.0\AndroidManifest.xml:21:13-72
+152
+153        <meta-data
+153-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+154            android:name="com.google.android.gms.version"
+154-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+155            android:value="@integer/google_play_services_version" />
+155-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\marat\.gradle\caches\transforms-3\a14c828f9d7b4523071c87ad1e25cf2e\transformed\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+156    </application>
+157
+158</manifest>

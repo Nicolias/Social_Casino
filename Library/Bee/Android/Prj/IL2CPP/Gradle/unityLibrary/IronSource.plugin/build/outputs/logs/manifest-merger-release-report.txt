@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:2:1-19:12
-INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:2:1-19:12
-INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:2:1-19:12
+ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:2:1-21:12
 	package
 		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:3:5-35
 		INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml
@@ -17,8 +17,16 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:7:22-73
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:8:22-76
 application
-ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:8:5-18:19
+ADDED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml:10:5-20:19
 uses-sdk
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\UnityProject\Social casino\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.plugin\AndroidManifest.xml

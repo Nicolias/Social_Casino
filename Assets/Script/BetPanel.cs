@@ -11,8 +11,8 @@ public class BetPanel : MonoBehaviour
     private CreditPanel _creditPanel;
 
     private const int _betChangeStep = 100;
+    private const int _maxBet = 1000;
     private int _playerBet = 100;
-
     public int PlayerBet => _playerBet;
 
     [Inject]
@@ -78,6 +78,13 @@ public class BetPanel : MonoBehaviour
     private void CheckButtonsOnInteractable()
     {
         _decreaseButton.interactable = _playerBet - _betChangeStep > 0;
+
+        if (_playerBet >= _maxBet)
+        {
+            _addButton.interactable = false;
+                return;
+        }
+
         _addButton.interactable = _playerBet + _betChangeStep <= _creditPanel.CreditsCount;
     }
 }

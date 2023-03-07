@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class CombinationInterpreter
 {
@@ -13,16 +14,30 @@ public class CombinationInterpreter
 
     public void InterpritateCombination(List<CellsType> slotsCombination, int currentBet)
     {
-        int winStrik = 0;
+        int largestWinStrik = 0;
+        int winStrik = 1;
 
-        foreach (CellsType cell in slotsCombination)
-            if (cell == CellsType.SevenBar)
-                winStrik++;
-
-        if (winStrik == slotsCombination.Count)
+        for (int i = 1; i < slotsCombination.Count; i++)
         {
-            _winWindow.AccrueWinnings(currentBet * 2);
-            _audioServise.WinAudio.Play();
+            winStrik = slotsCombination[i - 1] == slotsCombination[i] ? winStrik += 1 : 1;
+
+            if (winStrik > largestWinStrik)
+                largestWinStrik = winStrik;
         }
+
+        if (largestWinStrik == 3)
+            AccurePrize(currentBet * 1.3f);
+
+        if (largestWinStrik == 4)
+            AccurePrize(currentBet * 1.4f);
+
+        if (largestWinStrik == 5)
+            AccurePrize(currentBet * 2f);
+    }
+
+    private void AccurePrize(float prize)
+    {
+        _winWindow.AccrueWinnings((Mathf.RoundToInt(prize)));
+        _audioServise.WinAudio.Play();
     }
 }

@@ -19,6 +19,10 @@
             }
         }
 
+        private const string FOLDER_NAME = "About";
+        private static string PARENT_FOLDER = "GleyPlugins";
+        private static string rootFolder;
+
         static GleyAboutWindow window;
         static IconReferences iconReferences;
 
@@ -49,6 +53,9 @@
         [MenuItem("Window/Gley/About Gley", false, 0)]
         private static void Init()
         {
+            if (!LoadRootFolder())
+                return;
+
             LoadIcons();
 
             LoadAssetStorePackages();
@@ -80,23 +87,40 @@
 
         static void LoadIcons()
         {
-            Object assetToLoad = AssetDatabase.LoadAssetAtPath("Assets/GleyPlugins/About/Editor/IconReferences.asset", typeof(IconReferences));
-            if (assetToLoad == null)
-            {
-                assetToLoad = AssetDatabase.LoadAssetAtPath("Assets/AboutWindow/Assets/About/Editor/IconReferences.asset", typeof(IconReferences));
-            }
-
+            Object assetToLoad = AssetDatabase.LoadAssetAtPath($"{rootFolder}/Editor/IconReferences.asset", typeof(IconReferences));
             iconReferences = (IconReferences)assetToLoad;
+        }
+
+
+        static bool LoadRootFolder()
+        {
+            rootFolder = Common.EditorUtilities.FindFolder(FOLDER_NAME, PARENT_FOLDER);
+            if (rootFolder == null)
+            {
+                Debug.LogError($"Folder Not Found: '{PARENT_FOLDER}/{FOLDER_NAME}'");
+                PARENT_FOLDER = "Assets";
+
+                rootFolder = Common.EditorUtilities.FindFolder(FOLDER_NAME, PARENT_FOLDER);
+                if (rootFolder == null)
+                {
+                    Debug.LogError($"Folder Not Found: '{PARENT_FOLDER}/{FOLDER_NAME}'");
+                    return false;
+                }
+            }
+            return true;
         }
 
         void OnEnable()
         {
-            if(iconReferences==null)
+            if (!LoadRootFolder())
+                return;
+
+            if (iconReferences == null)
             {
                 LoadIcons();
             }
 
-            if(assetStorePackages==null)
+            if (assetStorePackages == null)
             {
                 LoadAssetStorePackages();
             }
@@ -207,12 +231,12 @@
         {
             AssetState result = AssetState.InProject;
 
-            if (!AssetDatabase.IsValidFolder("Assets/GleyPlugins/" + folderName + "/Scripts"))
+            string path = Common.EditorUtilities.FindFolder("Scripts", folderName);
+            if (path == null)
             {
                 return AssetState.NotDownloaded;
             }
-
-            if (!File.Exists(Application.dataPath + "/GleyPlugins/" + folderName + "/Scripts/Version.txt"))
+            if (!File.Exists($"{Application.dataPath}/{path.Replace("Assets/", "")}/Version.txt"))
             {
                 nrOfUpdates++;
                 return AssetState.UpdateAvailable;
@@ -220,7 +244,7 @@
 
             if (allAssetsVersion != null)
             {
-                if (AssetNeedsUpdate(folderName))
+                if (AssetNeedsUpdate(path,folderName))
                 {
                     nrOfUpdates++;
                     return AssetState.UpdateAvailable;
@@ -230,13 +254,14 @@
             return result;
         }
 
-        private bool AssetNeedsUpdate(string folderName)
+        private bool AssetNeedsUpdate(string path, string folderName)
         {
             if (allAssetsVersion.assetsVersion.Count == 0)
                 return false;
-            string path = "Assets//GleyPlugins/" + folderName + "/Scripts/Version.txt";
-            StreamReader reader = new StreamReader(path);
-            int localVersion = JsonUtility.FromJson<AssetVersion>(reader.ReadToEnd()).shortVersion;
+            string filePath = $"{path}/Version.txt";
+            StreamReader reader = new StreamReader(filePath);
+            int localVersion = JsonUtility.FromJson<Common.AssetVersion>(reader.ReadToEnd()).shortVersion;
+
             int serverVersion = allAssetsVersion.assetsVersion.First(cond => cond.folderName == folderName).shortVersion;
             reader.Close();
             if (localVersion < serverVersion)

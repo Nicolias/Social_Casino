@@ -1,5 +1,6 @@
 ﻿namespace Gley.About
 {
+    using Gley.Common;
     using System.Collections.Generic;
 
     [System.Serializable]

@@ -39,13 +39,14 @@ public class CreditPanel : MonoBehaviour
 
     private void LoadCoinsCount()
     {
-        _creditsCount = PlayerPrefs.GetInt("Coins");
+        _creditsCount = PlayerPrefs.HasKey("Credits") ? PlayerPrefs.GetInt("Credits") : 2000;
+
         UpdateCreditsUIText();
     }
 
     private void SaveNewCoinsCount()
     {
-        PlayerPrefs.SetInt("Coins", _creditsCount);
+        PlayerPrefs.SetInt("Credits", _creditsCount);
 
         UpdateCreditsUIText();
         OnCreditChanged?.Invoke();
